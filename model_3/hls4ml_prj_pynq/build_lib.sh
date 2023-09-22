@@ -8,7 +8,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 INCFLAGS="-Ifirmware/ap_types/"
 PROJECT=myproject
-LIB_STAMP=ca61B9f3
+LIB_STAMP=1ff2E940
 
 ${CC} ${CFLAGS} ${INCFLAGS} -c firmware/${PROJECT}.cpp -o ${PROJECT}.o
 ${CC} ${CFLAGS} ${INCFLAGS} -c firmware/${PROJECT}_axi.cpp -o ${PROJECT}_axi.o

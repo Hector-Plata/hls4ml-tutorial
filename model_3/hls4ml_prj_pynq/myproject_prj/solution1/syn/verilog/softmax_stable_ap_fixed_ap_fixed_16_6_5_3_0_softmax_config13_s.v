@@ -330,7 +330,7 @@ myproject_axi_mul_mul_18s_18s_30_3_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 18 ),
     .dout_WIDTH( 30 ))
-myproject_axi_mul_mul_18s_18s_30_3_1_U240(
+myproject_axi_mul_mul_18s_18s_30_3_1_U228(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(exp_res_0_V_reg_927_pp0_iter9_reg),
@@ -345,7 +345,7 @@ myproject_axi_mul_mul_18s_18s_30_3_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 18 ),
     .dout_WIDTH( 30 ))
-myproject_axi_mul_mul_18s_18s_30_3_1_U241(
+myproject_axi_mul_mul_18s_18s_30_3_1_U229(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(exp_res_1_V_reg_933_pp0_iter9_reg),
@@ -360,7 +360,7 @@ myproject_axi_mul_mul_18s_18s_30_3_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 18 ),
     .dout_WIDTH( 30 ))
-myproject_axi_mul_mul_18s_18s_30_3_1_U242(
+myproject_axi_mul_mul_18s_18s_30_3_1_U230(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(exp_res_2_V_reg_939_pp0_iter9_reg),
@@ -375,7 +375,7 @@ myproject_axi_mul_mul_18s_18s_30_3_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 18 ),
     .dout_WIDTH( 30 ))
-myproject_axi_mul_mul_18s_18s_30_3_1_U243(
+myproject_axi_mul_mul_18s_18s_30_3_1_U231(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(exp_res_3_V_reg_956_pp0_iter9_reg),
@@ -390,7 +390,7 @@ myproject_axi_mul_mul_18s_18s_30_3_1 #(
     .din0_WIDTH( 18 ),
     .din1_WIDTH( 18 ),
     .dout_WIDTH( 30 ))
-myproject_axi_mul_mul_18s_18s_30_3_1_U244(
+myproject_axi_mul_mul_18s_18s_30_3_1_U232(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(exp_res_4_V_reg_950_pp0_iter9_reg),

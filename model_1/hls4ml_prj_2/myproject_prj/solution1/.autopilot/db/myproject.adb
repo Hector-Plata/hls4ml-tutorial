@@ -248,7 +248,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>4.06</m_delay>
+          <m_delay>4.35</m_delay>
           <m_topoIndex>2</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -5727,7 +5727,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>4.37</m_delay>
+          <m_delay>4.28</m_delay>
           <m_topoIndex>132</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -9190,7 +9190,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>4.02</m_delay>
+          <m_delay>4.35</m_delay>
           <m_topoIndex>198</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -19803,15 +19803,15 @@
             <item_version>0</item_version>
             <item>
               <first>DSP48E</first>
-              <second>575</second>
+              <second>571</second>
             </item>
             <item>
               <first>FF</first>
-              <second>2447</second>
+              <second>2445</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>35828</second>
+              <second>37490</second>
             </item>
           </second>
         </item>
@@ -19822,15 +19822,15 @@
             <item_version>0</item_version>
             <item>
               <first>DSP48E</first>
-              <second>349</second>
+              <second>322</second>
             </item>
             <item>
               <first>FF</first>
-              <second>1449</second>
+              <second>1482</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>18570</second>
+              <second>18939</second>
             </item>
           </second>
         </item>
@@ -19841,15 +19841,15 @@
             <item_version>0</item_version>
             <item>
               <first>DSP48E</first>
-              <second>477</second>
+              <second>466</second>
             </item>
             <item>
               <first>FF</first>
-              <second>1709</second>
+              <second>1714</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>21953</second>
+              <second>22264</second>
             </item>
           </second>
         </item>
@@ -19864,11 +19864,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>517</second>
+              <second>603</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>4167</second>
+              <second>4235</second>
             </item>
           </second>
         </item>

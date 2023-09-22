@@ -2,8 +2,8 @@
 <Messages>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;firmware/myproject.cpp&apos; ..."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Linking Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 861.133 ; gain = 457.035 ; free physical = 5804 ; free virtual = 27089"/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Pragmas Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 861.133 ; gain = 457.035 ; free physical = 5805 ; free virtual = 27091"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Linking Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 4158 ; free virtual = 26666"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Pragmas Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 4158 ; free virtual = 26666"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1467" tag="" content="Starting code transformations ..."/>
 	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;6, 1, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product&apos; into &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:42)."/>
 	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;nnet::dense&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;&apos; into &apos;myproject&apos; (firmware/myproject.cpp:41)."/>
@@ -14,7 +14,7 @@
 	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;nnet::dense&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config8&gt;&apos; into &apos;myproject&apos; (firmware/myproject.cpp:57)."/>
 	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;nnet::dense&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config11&gt;&apos; into &apos;myproject&apos; (firmware/myproject.cpp:65)."/>
 	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;nnet::softmax&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; into &apos;myproject&apos; (firmware/myproject.cpp:67)."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Standard Transforms Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 5761 ; free virtual = 27052"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Standard Transforms Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 4067 ; free virtual = 26575"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1472" tag="" content="Checking synthesizability ..."/>
 	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;nnet::cast&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;&apos; into &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:66) automatically."/>
 	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;nnet::cast&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;&apos; into &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:66) automatically."/>
@@ -36,7 +36,7 @@
 	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;nnet::softmax_idx_from_real_val&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; into &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:254) automatically."/>
 	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;nnet::reduce&lt;ap_fixed&lt;18, 8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 5, nnet::Op_add&lt;ap_fixed&lt;18, 8, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt; &gt;&apos; into &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:262) automatically."/>
 	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;nnet::softmax_idx_from_real_val&lt;ap_fixed&lt;18, 8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; into &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:265) automatically."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Synthesizability Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 928.148 ; gain = 524.051 ; free physical = 5737 ; free virtual = 27029"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Synthesizability Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 926.176 ; gain = 522.078 ; free physical = 4067 ; free virtual = 26575"/>
 	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:217:46)."/>
 	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config11&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:17:48)."/>
 	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config10&gt;&apos; (firmware/nnet_utils/nnet_activation.h:40:13)."/>
@@ -256,15 +256,15 @@
 	<Message severity="INFO" prefix="[XFORM 203-622]" key="XFORM_FINST_STATUS_226" tag="" content="Instantiating function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos;(firmware/nnet_utils/nnet_mult.h:26:9) to &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; by setting &apos;biases[62].V&apos; to &apos;b2.V.62&apos;."/>
 	<Message severity="INFO" prefix="[XFORM 203-622]" key="XFORM_FINST_STATUS_226" tag="" content="Instantiating function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos;(firmware/nnet_utils/nnet_mult.h:26:9) to &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; by setting &apos;biases[63].V&apos; to &apos;b2.V.63&apos;."/>
 	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:216:28) to (firmware/nnet_utils/nnet_activation.h:270:1) in function &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos;... converting 21 basic blocks."/>
-	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:39:74) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config7&gt;&apos;... converting 61 basic blocks."/>
-	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:39:74) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config4&gt;&apos;... converting 125 basic blocks."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:39:74) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config7&gt;&apos;... converting 55 basic blocks."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:39:74) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config4&gt;&apos;... converting 117 basic blocks."/>
 	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:39:74) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config10&gt;&apos;... converting 51 basic blocks."/>
 	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:50:1)...4 expression(s) balanced."/>
-	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config8&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_dense_latency.h:26:27)...220 expression(s) balanced."/>
-	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_dense_latency.h:26:27)...424 expression(s) balanced."/>
+	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config8&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_mult.h:26:9)...236 expression(s) balanced."/>
+	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_mult.h:26:9)...444 expression(s) balanced."/>
 	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config11&gt;.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_dense_latency.h:26:1)...40 expression(s) balanced."/>
-	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_mult.h:26:9)...226 expression(s) balanced."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Pre-synthesis Time (s): cpu = 00:05:43 ; elapsed = 00:05:46 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 3410 ; free virtual = 24706"/>
+	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_dense_latency.h:26:27)...228 expression(s) balanced."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Pre-synthesis Time (s): cpu = 00:05:45 ; elapsed = 00:05:48 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2179 ; free virtual = 24165"/>
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::softmax_stable&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, softmax_config13&gt;&apos; to &apos;softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;&apos; (firmware/nnet_utils/nnet_activation.h:50:1)"/>
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config7&gt;&apos; to &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;6, 0, 4, 0, 0&gt;, relu_config7&gt;&apos; (firmware/nnet_utils/nnet_activation.h:39)"/>
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config4&gt;&apos; to &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;6, 0, 4, 0, 0&gt;, relu_config4&gt;&apos; (firmware/nnet_utils/nnet_activation.h:39)"/>
@@ -273,7 +273,7 @@
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; to &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1&apos; (firmware/nnet_utils/nnet_mult.h:26:9)"/>
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::dense_latency&lt;ap_ufixed&lt;6, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config11&gt;.0.0.0.0.0.0&apos; to &apos;dense_latency&lt;ap_ufixed,ap_fixed&lt;16,6,5,3,0&gt;,config11&gt;.0.0.0.0.0.0&apos; (firmware/nnet_utils/nnet_dense_latency.h:26:1)"/>
 	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos; to &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.&apos; (firmware/nnet_utils/nnet_mult.h:26:9)"/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Architecture Synthesis Time (s): cpu = 00:05:58 ; elapsed = 00:06:00 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 3408 ; free virtual = 24706"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Architecture Synthesis Time (s): cpu = 00:05:59 ; elapsed = 00:06:02 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2162 ; free virtual = 24148"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1317" tag="" content="Starting hardware synthesis ..."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1385" tag="" content="Synthesizing &apos;myproject&apos; ..."/>
 	<Message severity="WARNING" prefix="[SYN 201-103]" key="SYN_MODULE_NAME_ILLEGAL_445" tag="" content="Legalizing function name &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.&apos; to &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s&apos;."/>
@@ -291,14 +291,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 360.96 seconds; current allocated memory: 323.608 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 361.96 seconds; current allocated memory: 322.744 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.62 seconds; current allocated memory: 327.639 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.9 seconds; current allocated memory: 326.652 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -306,13 +306,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;6, 0, 4, 0, 0&gt;, relu_config4&gt;&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.9 seconds; current allocated memory: 331.988 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2 seconds; current allocated memory: 330.795 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.06 seconds; current allocated memory: 337.987 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.97 seconds; current allocated memory: 336.418 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -320,14 +320,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.11 seconds; current allocated memory: 345.421 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.16 seconds; current allocated memory: 344.023 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.74 seconds; current allocated memory: 354.526 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.41 seconds; current allocated memory: 353.155 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -335,13 +335,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;6, 0, 4, 0, 0&gt;, relu_config7&gt;&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.74 seconds; current allocated memory: 357.164 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.2 seconds; current allocated memory: 355.674 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.01 seconds; current allocated memory: 359.894 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1 seconds; current allocated memory: 358.133 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -349,14 +349,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.66 seconds; current allocated memory: 364.052 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.65 seconds; current allocated memory: 362.264 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.05 seconds; current allocated memory: 369.135 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2 seconds; current allocated memory: 367.413 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -364,13 +364,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;6, 0, 4, 0, 0&gt;, relu_config10&gt;&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.11 seconds; current allocated memory: 371.221 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.34 seconds; current allocated memory: 369.512 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.85 seconds; current allocated memory: 373.530 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.87 seconds; current allocated memory: 371.822 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -378,14 +378,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed,ap_fixed&lt;16,6,5,3,0&gt;,config11&gt;.0.0.0.0.0.0&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 1."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.07 seconds; current allocated memory: 374.706 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.07 seconds; current allocated memory: 372.941 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.41 seconds; current allocated memory: 375.673 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.4 seconds; current allocated memory: 373.893 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
@@ -393,68 +393,68 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;softmax_stable&lt;ap_fixed,ap_fixed&lt;16,6,5,3,0&gt;,softmax_config13&gt;&apos;."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 4."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.48 seconds; current allocated memory: 376.257 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.45 seconds; current allocated memory: 374.508 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.24 seconds; current allocated memory: 376.752 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.2 seconds; current allocated memory: 374.999 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;myproject&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..."/>
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;myproject&apos;."/>
-	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 11."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 10."/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.29 seconds; current allocated memory: 377.427 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.29 seconds; current allocated memory: 375.686 MB."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 4.39 seconds; current allocated memory: 383.526 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 4.36 seconds; current allocated memory: 381.612 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.82 seconds; current allocated memory: 400.461 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.82 seconds; current allocated memory: 397.708 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.91 seconds; current allocated memory: 431.885 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.8 seconds; current allocated memory: 427.719 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 4.22 seconds; current allocated memory: 467.486 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 3.86 seconds; current allocated memory: 462.274 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 6 seconds; current allocated memory: 506.736 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 6.29 seconds; current allocated memory: 501.825 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.73 seconds; current allocated memory: 525.525 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.66 seconds; current allocated memory: 519.611 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 4.88 seconds; current allocated memory: 548.845 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 4.35 seconds; current allocated memory: 543.065 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.88 seconds; current allocated memory: 558.972 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.87 seconds; current allocated memory: 553.169 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;myproject_mul_mul_18s_18s_30_1_1&apos;: 5 instance(s)."/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.04 seconds; current allocated memory: 563.991 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.99 seconds; current allocated memory: 558.084 MB."/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;myproject&apos;"/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
@@ -466,11 +466,11 @@
 	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;myproject/layer13_out_4_V&apos; to &apos;ap_vld&apos;."/>
 	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on function &apos;myproject&apos; to &apos;ap_ctrl_hs&apos;."/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;myproject&apos;."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.07 seconds; current allocated memory: 581.684 MB."/>
-	<Message severity="INFO" prefix="[HLS 200-789]" key="HLS 200-789" tag="THROUGHPUT,SDX_KERNEL" content="**** Estimated Fmax: 246.82 MHz"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.11 seconds; current allocated memory: 574.500 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-789]" key="HLS 200-789" tag="THROUGHPUT,SDX_KERNEL" content="**** Estimated Fmax: 245.94 MHz"/>
 	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom&apos; using block ROMs."/>
 	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2_rom&apos; using auto ROMs."/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished generating all RTL models Time (s): cpu = 00:06:59 ; elapsed = 00:07:09 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 3166 ; free virtual = 24600"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished generating all RTL models Time (s): cpu = 00:06:59 ; elapsed = 00:07:09 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2132 ; free virtual = 24135"/>
 	<Message severity="INFO" prefix="[VHDL 208-304]" key="VHDL_304_1066" tag="" content="Generating VHDL RTL for myproject."/>
 	<Message severity="INFO" prefix="[VLOG 209-307]" key="VLOG_307_1067" tag="" content="Generating Verilog RTL for myproject."/>
 </Messages>

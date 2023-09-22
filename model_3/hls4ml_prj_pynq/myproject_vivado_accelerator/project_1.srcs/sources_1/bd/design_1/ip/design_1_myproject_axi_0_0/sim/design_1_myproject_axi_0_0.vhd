@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:hls:myproject_axi:1.0
--- IP Revision: 2113218280
+-- IP Revision: 2113218390
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

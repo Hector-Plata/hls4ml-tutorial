@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'myproject'
 ================================================================
-* Date:           Fri Sep 22 02:12:09 2023
+* Date:           Fri Sep 22 04:03:14 2023
 
 * Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  | 5.00 ns | 4.371 ns |   0.62 ns  |
+    |ap_clk  | 5.00 ns | 4.357 ns |   0.62 ns  |
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -63,20 +63,20 @@
 |DSP                  |        -|      -|        -|        -|     -|
 |Expression           |        -|      -|        0|        6|     -|
 |FIFO                 |        -|      -|        -|        -|     -|
-|Instance             |        4|   1486|     6358|    84766|     -|
+|Instance             |        4|   1444|     6480|    87176|     -|
 |Memory               |        -|      -|        -|        -|     -|
 |Multiplexer          |        -|      -|        -|       69|     -|
 |Register             |        -|      -|     2398|        -|     -|
 +---------------------+---------+-------+---------+---------+------+
-|Total                |        4|   1486|     8756|    84841|     0|
+|Total                |        4|   1444|     8878|    87251|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available SLR        |     1344|   3072|   864000|   432000|   320|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization SLR (%)  |    ~0   |     48|        1|       19|     0|
+|Utilization SLR (%)  |    ~0   |     47|        1|       20|     0|
 +---------------------+---------+-------+---------+---------+------+
 |Available            |     5376|  12288|  3456000|  1728000|  1280|
 +---------------------+---------+-------+---------+---------+------+
-|Utilization (%)      |    ~0   |     12|    ~0   |        4|     0|
+|Utilization (%)      |    ~0   |     11|    ~0   |        5|     0|
 +---------------------+---------+-------+---------+---------+------+
 
 + Detail: 
@@ -84,16 +84,16 @@
     +----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+---------+-------+------+-------+-----+
     |                                           Instance                                           |                                       Module                                      | BRAM_18K| DSP48E|  FF  |  LUT  | URAM|
     +----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+---------+-------+------+-------+-----+
-    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171    |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0    |        0|    349|  1449|  18570|    0|
-    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97   |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1  |        0|    575|  2447|  35828|    0|
-    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165  |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s  |        0|    477|  1709|  21953|    0|
-    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207                    |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0                    |        0|     80|   517|   4167|    0|
+    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171    |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0    |        0|    322|  1482|  18939|    0|
+    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97   |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1  |        0|    571|  2445|  37490|    0|
+    |grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165  |dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s  |        0|    466|  1714|  22264|    0|
+    |grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207                    |dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0                    |        0|     80|   603|   4235|    0|
     |call_ret5_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s_fu_360                 |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s                       |        0|      0|     0|    896|    0|
     |call_ret1_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_243                  |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s                        |        0|      0|     0|   1792|    0|
     |call_ret3_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_324                  |relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s                        |        0|      0|     0|    896|    0|
     |grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_311                     |softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s                     |        4|      5|   236|    664|    0|
     +----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+---------+-------+------+-------+-----+
-    |Total                                                                                         |                                                                                   |        4|   1486|  6358|  84766|    0|
+    |Total                                                                                         |                                                                                   |        4|   1444|  6480|  87176|    0|
     +----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+---------+-------+------+-------+-----+
 
     * DSP48E: 
@@ -366,12 +366,12 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 4.06>
+State 1 <SV = 0> <Delay = 4.35>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%fc1_input_V_read = call i256 @_ssdm_op_Read.ap_vld.i256P(i256* %fc1_input_V)"   --->   Operation 14 'read' 'fc1_input_V_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 15 [2/2] (4.06ns)   --->   "%call_ret = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.(i256 %fc1_input_V_read)"   --->   Operation 15 'call' 'call_ret' <Predicate = true> <Delay = 4.06> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 15 [2/2] (4.35ns)   --->   "%call_ret = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.(i256 %fc1_input_V_read)"   --->   Operation 15 'call' 'call_ret' <Predicate = true> <Delay = 4.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 2 <SV = 1> <Delay = 2.31>
-ST_2 : Operation 16 [1/2] (1.35ns)   --->   "%call_ret = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.(i256 %fc1_input_V_read)"   --->   Operation 16 'call' 'call_ret' <Predicate = true> <Delay = 1.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 2 <SV = 1> <Delay = 1.64>
+ST_2 : Operation 16 [1/2] (0.67ns)   --->   "%call_ret = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.(i256 %fc1_input_V_read)"   --->   Operation 16 'call' 'call_ret' <Predicate = true> <Delay = 0.67> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%layer2_out_0_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret, 0"   --->   Operation 17 'extractvalue' 'layer2_out_0_V' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%layer2_out_1_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret, 1"   --->   Operation 18 'extractvalue' 'layer2_out_1_V' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%layer2_out_2_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret, 2"   --->   Operation 19 'extractvalue' 'layer2_out_2_V' <Predicate = true> <Delay = 0.00>
@@ -502,11 +502,11 @@ ST_2 : Operation 143 [1/1] (0.00ns)   --->   "%layer4_out_61_V = extractvalue { 
 ST_2 : Operation 144 [1/1] (0.00ns)   --->   "%layer4_out_62_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret1, 62" [firmware/myproject.cpp:45]   --->   Operation 144 'extractvalue' 'layer4_out_62_V' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 145 [1/1] (0.00ns)   --->   "%layer4_out_63_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret1, 63" [firmware/myproject.cpp:45]   --->   Operation 145 'extractvalue' 'layer4_out_63_V' <Predicate = true> <Delay = 0.00>
 
-State 3 <SV = 2> <Delay = 4.37>
-ST_3 : Operation 146 [2/2] (4.37ns)   --->   "%call_ret2 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1(i16 %layer4_out_0_V, i16 %layer4_out_1_V, i16 %layer4_out_2_V, i16 %layer4_out_3_V, i16 %layer4_out_4_V, i16 %layer4_out_5_V, i16 %layer4_out_6_V, i16 %layer4_out_7_V, i16 %layer4_out_8_V, i16 %layer4_out_9_V, i16 %layer4_out_10_V, i16 %layer4_out_11_V, i16 %layer4_out_12_V, i16 %layer4_out_13_V, i16 %layer4_out_14_V, i16 %layer4_out_15_V, i16 %layer4_out_16_V, i16 %layer4_out_17_V, i16 %layer4_out_18_V, i16 %layer4_out_19_V, i16 %layer4_out_20_V, i16 %layer4_out_21_V, i16 %layer4_out_22_V, i16 %layer4_out_23_V, i16 %layer4_out_24_V, i16 %layer4_out_25_V, i16 %layer4_out_26_V, i16 %layer4_out_27_V, i16 %layer4_out_28_V, i16 %layer4_out_29_V, i16 %layer4_out_30_V, i16 %layer4_out_31_V, i16 %layer4_out_32_V, i16 %layer4_out_33_V, i16 %layer4_out_34_V, i16 %layer4_out_35_V, i16 %layer4_out_36_V, i16 %layer4_out_37_V, i16 %layer4_out_38_V, i16 %layer4_out_39_V, i16 %layer4_out_40_V, i16 %layer4_out_41_V, i16 %layer4_out_42_V, i16 %layer4_out_43_V, i16 %layer4_out_44_V, i16 %layer4_out_45_V, i16 %layer4_out_46_V, i16 %layer4_out_47_V, i16 %layer4_out_48_V, i16 %layer4_out_49_V, i16 %layer4_out_50_V, i16 %layer4_out_51_V, i16 %layer4_out_52_V, i16 %layer4_out_53_V, i16 %layer4_out_54_V, i16 %layer4_out_55_V, i16 %layer4_out_56_V, i16 %layer4_out_57_V, i16 %layer4_out_58_V, i16 %layer4_out_59_V, i16 %layer4_out_60_V, i16 %layer4_out_61_V, i16 %layer4_out_62_V, i16 %layer4_out_63_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 146 'call' 'call_ret2' <Predicate = true> <Delay = 4.37> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 3 <SV = 2> <Delay = 4.28>
+ST_3 : Operation 146 [2/2] (4.28ns)   --->   "%call_ret2 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1(i16 %layer4_out_0_V, i16 %layer4_out_1_V, i16 %layer4_out_2_V, i16 %layer4_out_3_V, i16 %layer4_out_4_V, i16 %layer4_out_5_V, i16 %layer4_out_6_V, i16 %layer4_out_7_V, i16 %layer4_out_8_V, i16 %layer4_out_9_V, i16 %layer4_out_10_V, i16 %layer4_out_11_V, i16 %layer4_out_12_V, i16 %layer4_out_13_V, i16 %layer4_out_14_V, i16 %layer4_out_15_V, i16 %layer4_out_16_V, i16 %layer4_out_17_V, i16 %layer4_out_18_V, i16 %layer4_out_19_V, i16 %layer4_out_20_V, i16 %layer4_out_21_V, i16 %layer4_out_22_V, i16 %layer4_out_23_V, i16 %layer4_out_24_V, i16 %layer4_out_25_V, i16 %layer4_out_26_V, i16 %layer4_out_27_V, i16 %layer4_out_28_V, i16 %layer4_out_29_V, i16 %layer4_out_30_V, i16 %layer4_out_31_V, i16 %layer4_out_32_V, i16 %layer4_out_33_V, i16 %layer4_out_34_V, i16 %layer4_out_35_V, i16 %layer4_out_36_V, i16 %layer4_out_37_V, i16 %layer4_out_38_V, i16 %layer4_out_39_V, i16 %layer4_out_40_V, i16 %layer4_out_41_V, i16 %layer4_out_42_V, i16 %layer4_out_43_V, i16 %layer4_out_44_V, i16 %layer4_out_45_V, i16 %layer4_out_46_V, i16 %layer4_out_47_V, i16 %layer4_out_48_V, i16 %layer4_out_49_V, i16 %layer4_out_50_V, i16 %layer4_out_51_V, i16 %layer4_out_52_V, i16 %layer4_out_53_V, i16 %layer4_out_54_V, i16 %layer4_out_55_V, i16 %layer4_out_56_V, i16 %layer4_out_57_V, i16 %layer4_out_58_V, i16 %layer4_out_59_V, i16 %layer4_out_60_V, i16 %layer4_out_61_V, i16 %layer4_out_62_V, i16 %layer4_out_63_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 146 'call' 'call_ret2' <Predicate = true> <Delay = 4.28> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 4 <SV = 3> <Delay = 2.31>
-ST_4 : Operation 147 [1/2] (1.35ns)   --->   "%call_ret2 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1(i16 %layer4_out_0_V, i16 %layer4_out_1_V, i16 %layer4_out_2_V, i16 %layer4_out_3_V, i16 %layer4_out_4_V, i16 %layer4_out_5_V, i16 %layer4_out_6_V, i16 %layer4_out_7_V, i16 %layer4_out_8_V, i16 %layer4_out_9_V, i16 %layer4_out_10_V, i16 %layer4_out_11_V, i16 %layer4_out_12_V, i16 %layer4_out_13_V, i16 %layer4_out_14_V, i16 %layer4_out_15_V, i16 %layer4_out_16_V, i16 %layer4_out_17_V, i16 %layer4_out_18_V, i16 %layer4_out_19_V, i16 %layer4_out_20_V, i16 %layer4_out_21_V, i16 %layer4_out_22_V, i16 %layer4_out_23_V, i16 %layer4_out_24_V, i16 %layer4_out_25_V, i16 %layer4_out_26_V, i16 %layer4_out_27_V, i16 %layer4_out_28_V, i16 %layer4_out_29_V, i16 %layer4_out_30_V, i16 %layer4_out_31_V, i16 %layer4_out_32_V, i16 %layer4_out_33_V, i16 %layer4_out_34_V, i16 %layer4_out_35_V, i16 %layer4_out_36_V, i16 %layer4_out_37_V, i16 %layer4_out_38_V, i16 %layer4_out_39_V, i16 %layer4_out_40_V, i16 %layer4_out_41_V, i16 %layer4_out_42_V, i16 %layer4_out_43_V, i16 %layer4_out_44_V, i16 %layer4_out_45_V, i16 %layer4_out_46_V, i16 %layer4_out_47_V, i16 %layer4_out_48_V, i16 %layer4_out_49_V, i16 %layer4_out_50_V, i16 %layer4_out_51_V, i16 %layer4_out_52_V, i16 %layer4_out_53_V, i16 %layer4_out_54_V, i16 %layer4_out_55_V, i16 %layer4_out_56_V, i16 %layer4_out_57_V, i16 %layer4_out_58_V, i16 %layer4_out_59_V, i16 %layer4_out_60_V, i16 %layer4_out_61_V, i16 %layer4_out_62_V, i16 %layer4_out_63_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 147 'call' 'call_ret2' <Predicate = true> <Delay = 1.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 4 <SV = 3> <Delay = 2.99>
+ST_4 : Operation 147 [1/2] (2.02ns)   --->   "%call_ret2 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1(i16 %layer4_out_0_V, i16 %layer4_out_1_V, i16 %layer4_out_2_V, i16 %layer4_out_3_V, i16 %layer4_out_4_V, i16 %layer4_out_5_V, i16 %layer4_out_6_V, i16 %layer4_out_7_V, i16 %layer4_out_8_V, i16 %layer4_out_9_V, i16 %layer4_out_10_V, i16 %layer4_out_11_V, i16 %layer4_out_12_V, i16 %layer4_out_13_V, i16 %layer4_out_14_V, i16 %layer4_out_15_V, i16 %layer4_out_16_V, i16 %layer4_out_17_V, i16 %layer4_out_18_V, i16 %layer4_out_19_V, i16 %layer4_out_20_V, i16 %layer4_out_21_V, i16 %layer4_out_22_V, i16 %layer4_out_23_V, i16 %layer4_out_24_V, i16 %layer4_out_25_V, i16 %layer4_out_26_V, i16 %layer4_out_27_V, i16 %layer4_out_28_V, i16 %layer4_out_29_V, i16 %layer4_out_30_V, i16 %layer4_out_31_V, i16 %layer4_out_32_V, i16 %layer4_out_33_V, i16 %layer4_out_34_V, i16 %layer4_out_35_V, i16 %layer4_out_36_V, i16 %layer4_out_37_V, i16 %layer4_out_38_V, i16 %layer4_out_39_V, i16 %layer4_out_40_V, i16 %layer4_out_41_V, i16 %layer4_out_42_V, i16 %layer4_out_43_V, i16 %layer4_out_44_V, i16 %layer4_out_45_V, i16 %layer4_out_46_V, i16 %layer4_out_47_V, i16 %layer4_out_48_V, i16 %layer4_out_49_V, i16 %layer4_out_50_V, i16 %layer4_out_51_V, i16 %layer4_out_52_V, i16 %layer4_out_53_V, i16 %layer4_out_54_V, i16 %layer4_out_55_V, i16 %layer4_out_56_V, i16 %layer4_out_57_V, i16 %layer4_out_58_V, i16 %layer4_out_59_V, i16 %layer4_out_60_V, i16 %layer4_out_61_V, i16 %layer4_out_62_V, i16 %layer4_out_63_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 147 'call' 'call_ret2' <Predicate = true> <Delay = 2.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_4 : Operation 148 [1/1] (0.00ns)   --->   "%layer5_out_0_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret2, 0" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 148 'extractvalue' 'layer5_out_0_V' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 149 [1/1] (0.00ns)   --->   "%layer5_out_1_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret2, 1" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 149 'extractvalue' 'layer5_out_1_V' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 150 [1/1] (0.00ns)   --->   "%layer5_out_2_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret2, 2" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:49]   --->   Operation 150 'extractvalue' 'layer5_out_2_V' <Predicate = true> <Delay = 0.00>
@@ -573,8 +573,8 @@ ST_4 : Operation 210 [1/1] (0.00ns)   --->   "%layer7_out_29_V = extractvalue { 
 ST_4 : Operation 211 [1/1] (0.00ns)   --->   "%layer7_out_30_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret3, 30" [firmware/myproject.cpp:53]   --->   Operation 211 'extractvalue' 'layer7_out_30_V' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 212 [1/1] (0.00ns)   --->   "%layer7_out_31_V = extractvalue { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } %call_ret3, 31" [firmware/myproject.cpp:53]   --->   Operation 212 'extractvalue' 'layer7_out_31_V' <Predicate = true> <Delay = 0.00>
 
-State 5 <SV = 4> <Delay = 4.02>
-ST_5 : Operation 213 [2/2] (4.02ns)   --->   "%call_ret4 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0(i16 %layer7_out_0_V, i16 %layer7_out_1_V, i16 %layer7_out_2_V, i16 %layer7_out_3_V, i16 %layer7_out_4_V, i16 %layer7_out_5_V, i16 %layer7_out_6_V, i16 %layer7_out_7_V, i16 %layer7_out_8_V, i16 %layer7_out_9_V, i16 %layer7_out_10_V, i16 %layer7_out_11_V, i16 %layer7_out_12_V, i16 %layer7_out_13_V, i16 %layer7_out_14_V, i16 %layer7_out_15_V, i16 %layer7_out_16_V, i16 %layer7_out_17_V, i16 %layer7_out_18_V, i16 %layer7_out_19_V, i16 %layer7_out_20_V, i16 %layer7_out_21_V, i16 %layer7_out_22_V, i16 %layer7_out_23_V, i16 %layer7_out_24_V, i16 %layer7_out_25_V, i16 %layer7_out_26_V, i16 %layer7_out_27_V, i16 %layer7_out_28_V, i16 %layer7_out_29_V, i16 %layer7_out_30_V, i16 %layer7_out_31_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:57]   --->   Operation 213 'call' 'call_ret4' <Predicate = true> <Delay = 4.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 5 <SV = 4> <Delay = 4.35>
+ST_5 : Operation 213 [2/2] (4.35ns)   --->   "%call_ret4 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0(i16 %layer7_out_0_V, i16 %layer7_out_1_V, i16 %layer7_out_2_V, i16 %layer7_out_3_V, i16 %layer7_out_4_V, i16 %layer7_out_5_V, i16 %layer7_out_6_V, i16 %layer7_out_7_V, i16 %layer7_out_8_V, i16 %layer7_out_9_V, i16 %layer7_out_10_V, i16 %layer7_out_11_V, i16 %layer7_out_12_V, i16 %layer7_out_13_V, i16 %layer7_out_14_V, i16 %layer7_out_15_V, i16 %layer7_out_16_V, i16 %layer7_out_17_V, i16 %layer7_out_18_V, i16 %layer7_out_19_V, i16 %layer7_out_20_V, i16 %layer7_out_21_V, i16 %layer7_out_22_V, i16 %layer7_out_23_V, i16 %layer7_out_24_V, i16 %layer7_out_25_V, i16 %layer7_out_26_V, i16 %layer7_out_27_V, i16 %layer7_out_28_V, i16 %layer7_out_29_V, i16 %layer7_out_30_V, i16 %layer7_out_31_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:57]   --->   Operation 213 'call' 'call_ret4' <Predicate = true> <Delay = 4.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 2.31>
 ST_6 : Operation 214 [1/2] (1.35ns)   --->   "%call_ret4 = call fastcc { i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16, i16 } @dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0(i16 %layer7_out_0_V, i16 %layer7_out_1_V, i16 %layer7_out_2_V, i16 %layer7_out_3_V, i16 %layer7_out_4_V, i16 %layer7_out_5_V, i16 %layer7_out_6_V, i16 %layer7_out_7_V, i16 %layer7_out_8_V, i16 %layer7_out_9_V, i16 %layer7_out_10_V, i16 %layer7_out_11_V, i16 %layer7_out_12_V, i16 %layer7_out_13_V, i16 %layer7_out_14_V, i16 %layer7_out_15_V, i16 %layer7_out_16_V, i16 %layer7_out_17_V, i16 %layer7_out_18_V, i16 %layer7_out_19_V, i16 %layer7_out_20_V, i16 %layer7_out_21_V, i16 %layer7_out_22_V, i16 %layer7_out_23_V, i16 %layer7_out_24_V, i16 %layer7_out_25_V, i16 %layer7_out_26_V, i16 %layer7_out_27_V, i16 %layer7_out_28_V, i16 %layer7_out_29_V, i16 %layer7_out_30_V, i16 %layer7_out_31_V)" [firmware/nnet_utils/nnet_dense.h:41->firmware/myproject.cpp:57]   --->   Operation 214 'call' 'call_ret4' <Predicate = true> <Delay = 1.35> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -970,9 +970,9 @@ layer10_out_18_V    (extractvalue ) [ 01000001000000]
 layer10_out_19_V    (extractvalue ) [ 01000001000000]
 layer10_out_20_V    (extractvalue ) [ 01000001000000]
 layer10_out_21_V    (extractvalue ) [ 01000001000000]
-layer10_out_22_V    (extractvalue ) [ 01100001100000]
+layer10_out_22_V    (extractvalue ) [ 01000001000000]
 layer10_out_23_V    (extractvalue ) [ 01100001100000]
-layer10_out_24_V    (extractvalue ) [ 01100001100000]
+layer10_out_24_V    (extractvalue ) [ 01000001000000]
 layer10_out_25_V    (extractvalue ) [ 01000001000000]
 layer10_out_26_V    (extractvalue ) [ 01000001000000]
 layer10_out_27_V    (extractvalue ) [ 01000001000000]
@@ -7645,10 +7645,10 @@ ret_ln69            (ret          ) [ 00000000000000]
 |----------|----------------------------------------------------------------------------------------------|---------|---------|---------|---------|
 | Operation|                                        Functional Unit                                       |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|----------------------------------------------------------------------------------------------|---------|---------|---------|---------|
-|          |  grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97 |   584   |    0    |   2445  |  34710  |
-|          | grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165 |   481   |    0    |   1707  |  21419  |
-|          |  grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171  |   353   |    0    |   1447  |  18120  |
-|   call   |          grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207          |    80   |  39.195 |   403   |   3448  |
+|          |  grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97 |   579   |    0    |   2443  |  36342  |
+|          | grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165 |   474   |    0    |   1712  |  21739  |
+|          |  grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171  |   325   |    0    |   1480  |  18461  |
+|   call   |          grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207          |    80   |  34.371 |   521   |   3588  |
 |          |         call_ret1_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_243         |    0    |    0    |    0    |   1792  |
 |          |           grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_311          |    5    |  3.618  |   213   |   696   |
 |          |         call_ret3_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_324         |    0    |    0    |    0    |   896   |
@@ -7929,7 +7929,7 @@ ret_ln69            (ret          ) [ 00000000000000]
 |          |                                  layer13_out_V_3_ret_fu_1583                                 |    0    |    0    |    0    |    0    |
 |          |                                  layer13_out_V_4_ret_fu_1588                                 |    0    |    0    |    0    |    0    |
 |----------|----------------------------------------------------------------------------------------------|---------|---------|---------|---------|
-|   Total  |                                                                                              |   1503  |  42.813 |   6215  |  81977  |
+|   Total  |                                                                                              |   1463  |  37.989 |   6369  |  84410  |
 |----------|----------------------------------------------------------------------------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -8096,10 +8096,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    -   |  1503  |   42   |  6215  |  81977 |
+|  Function |    -   |  1463  |   37   |  6369  |  84410 |
 |   Memory  |    4   |    -   |    -   |    0   |    0   |
 |Multiplexer|    -   |    -   |    -   |    -   |    -   |
 |  Register |    -   |    -   |    -   |  2128  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |    4   |  1503  |   42   |  8343  |  81977 |
+|   Total   |    4   |  1463  |   37   |  8497  |  84410 |
 +-----------+--------+--------+--------+--------+--------+

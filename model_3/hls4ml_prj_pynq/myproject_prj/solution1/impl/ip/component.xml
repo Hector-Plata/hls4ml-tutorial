@@ -179,7 +179,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>09c1723c</spirit:value>
+            <spirit:value>1bbc5f26</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -198,7 +198,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>30db97c0</spirit:value>
+            <spirit:value>321b05a7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -217,7 +217,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>30421e37</spirit:value>
+            <spirit:value>249696f3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -236,7 +236,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>32acf34e</spirit:value>
+            <spirit:value>cb9047c3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -797,7 +797,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/myproject_axi.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_81c92185</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_84c49ead</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -992,7 +992,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">94</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">92</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -1009,15 +1009,15 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Myproject_axi</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113218280</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2023-09-22T02:40:38Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113218390</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-09-22T04:30:19Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2019.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="579f866f"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7ede4b64"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="aac963e6"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="80c08173"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="f106dd09"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="2fdd0c0f"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

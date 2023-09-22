@@ -15,7 +15,8 @@
   "HlsSolution": {"Config": [
       "config_array_partition -maximum_size=4096",
       "config_compile -name_max_length=80",
-      "config_schedule -enable_dsp_full_reg=0"
+      "config_schedule -enable_dsp_full_reg=0",
+      "config_export -format=ip_catalog"
     ]},
   "Args": {
     "in": {
@@ -83,7 +84,7 @@
     "ClockPeriod": "5",
     "IsCombLogic": "0",
     "II": "x",
-    "Latency": "94",
+    "Latency": "92",
     "Uncertainty": "0.625"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 5.000 [get_ports ap_clk]"]},
@@ -284,31 +285,31 @@
             },
             {
               "ModuleName": "dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s",
-              "InstanceName": "grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_109"
+              "InstanceName": "grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_106"
             },
             {
               "ModuleName": "dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0",
-              "InstanceName": "grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_115"
+              "InstanceName": "grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_112"
             },
             {
               "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s",
-              "InstanceName": "call_ret1_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s_fu_149"
+              "InstanceName": "call_ret1_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config4_s_fu_143"
             },
             {
               "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s",
-              "InstanceName": "call_ret3_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s_fu_214"
+              "InstanceName": "call_ret3_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config7_s_fu_205"
             },
             {
               "ModuleName": "relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s",
-              "InstanceName": "call_ret5_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s_fu_248"
+              "InstanceName": "call_ret5_relu_ap_fixed_16_6_5_3_0_ap_ufixed_6_0_4_0_0_relu_config10_s_fu_236"
             },
             {
               "ModuleName": "dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0",
-              "InstanceName": "grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_277"
+              "InstanceName": "grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_265"
             },
             {
               "ModuleName": "softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s",
-              "InstanceName": "grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_306"
+              "InstanceName": "grp_softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_fu_294"
             }
           ]
         }]
@@ -388,11 +389,11 @@
     "Metrics": {
       "dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s": {
         "Latency": {
-          "LatencyBest": "9",
-          "LatencyAvg": "9",
-          "LatencyWorst": "9",
-          "PipelineII": "10",
-          "PipelineDepth": "10",
+          "LatencyBest": "8",
+          "LatencyAvg": "8",
+          "LatencyWorst": "8",
+          "PipelineII": "9",
+          "PipelineDepth": "9",
           "PipelineType": "function"
         },
         "Timing": {
@@ -402,8 +403,8 @@
         },
         "Area": {
           "DSP48E": "4",
-          "FF": "5225",
-          "LUT": "7015",
+          "FF": "4697",
+          "LUT": "6983",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -424,7 +425,7 @@
         },
         "Area": {
           "FF": "0",
-          "LUT": "4941",
+          "LUT": "4698",
           "BRAM_18K": "0",
           "DSP48E": "0",
           "URAM": "0"
@@ -432,11 +433,11 @@
       },
       "dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1": {
         "Latency": {
-          "LatencyBest": "9",
-          "LatencyAvg": "9",
-          "LatencyWorst": "9",
-          "PipelineII": "10",
-          "PipelineDepth": "10",
+          "LatencyBest": "8",
+          "LatencyAvg": "8",
+          "LatencyWorst": "8",
+          "PipelineII": "9",
+          "PipelineDepth": "9",
           "PipelineType": "function"
         },
         "Timing": {
@@ -446,8 +447,8 @@
         },
         "Area": {
           "DSP48E": "0",
-          "FF": "5451",
-          "LUT": "9782",
+          "FF": "5455",
+          "LUT": "10247",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -468,7 +469,7 @@
         },
         "Area": {
           "FF": "0",
-          "LUT": "2430",
+          "LUT": "2187",
           "BRAM_18K": "0",
           "DSP48E": "0",
           "URAM": "0"
@@ -486,12 +487,12 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "3.845"
+          "Estimate": "3.903"
         },
         "Area": {
           "DSP48E": "0",
-          "FF": "3099",
-          "LUT": "5300",
+          "FF": "3138",
+          "LUT": "5503",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -534,8 +535,8 @@
         },
         "Area": {
           "DSP48E": "0",
-          "FF": "382",
-          "LUT": "1118",
+          "FF": "385",
+          "LUT": "1116",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -564,11 +565,11 @@
       },
       "myproject": {
         "Latency": {
-          "LatencyBest": "54",
-          "LatencyAvg": "54",
-          "LatencyWorst": "54",
+          "LatencyBest": "52",
+          "LatencyAvg": "52",
+          "LatencyWorst": "52",
           "PipelineII": "15",
-          "PipelineDepth": "55",
+          "PipelineDepth": "53",
           "PipelineType": "function"
         },
         "Timing": {
@@ -579,17 +580,17 @@
         "Area": {
           "BRAM_18K": "4",
           "DSP48E": "9",
-          "FF": "17944",
-          "LUT": "33542",
+          "FF": "17330",
+          "LUT": "33690",
           "URAM": "0"
         }
       },
       "myproject_axi": {
         "Latency": {
-          "LatencyBest": "94",
-          "LatencyAvg": "94",
-          "LatencyWorst": "94",
-          "PipelineII": "95",
+          "LatencyBest": "92",
+          "LatencyAvg": "92",
+          "LatencyWorst": "92",
+          "PipelineII": "93",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -617,8 +618,8 @@
         "Area": {
           "BRAM_18K": "4",
           "DSP48E": "9",
-          "FF": "21114",
-          "LUT": "40321",
+          "FF": "20498",
+          "LUT": "40461",
           "URAM": "0"
         }
       }
@@ -634,7 +635,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-09-22 02:40:21 UTC",
+    "Time": "2023-09-22 04:30:07 UTC",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.2"
   }

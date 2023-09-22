@@ -48,11 +48,11 @@ struct softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s : public s
 
     softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1* exp_table1_U;
     softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2* invert_table2_U;
-    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U234;
-    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U235;
-    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U236;
-    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U237;
-    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U238;
+    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U222;
+    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U223;
+    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U224;
+    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U225;
+    myproject_mul_mul_18s_18s_30_1_1<1,1,18,18,30>* myproject_mul_mul_18s_18s_30_1_1_U226;
     sc_signal< sc_lv<1> > ap_CS_fsm;
     sc_signal< sc_logic > ap_CS_fsm_pp0_stage0;
     sc_signal< sc_logic > ap_enable_reg_pp0_iter0;

@@ -5586,7 +5586,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U234</rtlName>
+              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U222</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -5734,7 +5734,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U235</rtlName>
+              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U223</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -5882,7 +5882,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U236</rtlName>
+              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U224</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6030,7 +6030,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U237</rtlName>
+              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U225</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6178,7 +6178,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U238</rtlName>
+              <rtlName>myproject_mul_mul_18s_18s_30_1_1_U226</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -11341,7 +11341,7 @@
         <count>5</count>
         <item_version>0</item_version>
         <item>
-          <first>myproject_mul_mul_18s_18s_30_1_1_U234</first>
+          <first>myproject_mul_mul_18s_18s_30_1_1_U222</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11352,7 +11352,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_mul_mul_18s_18s_30_1_1_U235</first>
+          <first>myproject_mul_mul_18s_18s_30_1_1_U223</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11363,7 +11363,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_mul_mul_18s_18s_30_1_1_U236</first>
+          <first>myproject_mul_mul_18s_18s_30_1_1_U224</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11374,7 +11374,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_mul_mul_18s_18s_30_1_1_U237</first>
+          <first>myproject_mul_mul_18s_18s_30_1_1_U225</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11385,7 +11385,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_mul_mul_18s_18s_30_1_1_U238</first>
+          <first>myproject_mul_mul_18s_18s_30_1_1_U226</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>

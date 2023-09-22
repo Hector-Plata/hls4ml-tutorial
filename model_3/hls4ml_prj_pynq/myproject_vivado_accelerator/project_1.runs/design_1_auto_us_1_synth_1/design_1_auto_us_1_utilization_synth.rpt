@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date         : Fri Sep 22 02:42:30 2023
-| Host         : dba9c4fe0283 running 64-bit unknown
+| Date         : Fri Sep 22 04:33:06 2023
+| Host         : 075424d61e46 running 64-bit unknown
 | Command      : report_utilization -file design_1_auto_us_1_utilization_synth.rpt -pb design_1_auto_us_1_utilization_synth.pb
 | Design       : design_1_auto_us_1
 | Device       : 7z020clg400-1

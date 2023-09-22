@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'myproject'" level="0">
-<item name = "Date">Fri Sep 22 02:12:09 2023
+<item name = "Date">Fri Sep 22 04:03:14 2023
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 4.371 ns, 0.62 ns</column>
+<column name="ap_clk">5.00 ns, 4.357 ns, 0.62 ns</column>
 </table>
 </item>
 </section>
@@ -57,24 +57,24 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 6, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">4, 1486, 6358, 84766, -</column>
+<column name="Instance">4, 1444, 6480, 87176, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 69, -</column>
 <column name="Register">-, -, 2398, -, -</column>
 <specialColumn name="Available SLR">1344, 3072, 864000, 432000, 320</specialColumn>
-<specialColumn name="Utilization SLR (%)">~0, 48, 1, 19, 0</specialColumn>
+<specialColumn name="Utilization SLR (%)">~0, 47, 1, 20, 0</specialColumn>
 <specialColumn name="Available">5376, 12288, 3456000, 1728000, 1280</specialColumn>
-<specialColumn name="Utilization (%)">~0, 12, ~0, 4, 0</specialColumn>
+<specialColumn name="Utilization (%)">~0, 11, ~0, 5, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
-<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0, 0, 349, 1449, 18570, 0</column>
-<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1, 0, 575, 2447, 35828, 0</column>
-<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s, 0, 477, 1709, 21953, 0</column>
-<column name="grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207">dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0, 0, 80, 517, 4167, 0</column>
+<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_171">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0, 0, 322, 1482, 18939, 0</column>
+<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_97">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1, 0, 571, 2445, 37490, 0</column>
+<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s_fu_165">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s, 0, 466, 1714, 22264, 0</column>
+<column name="grp_dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0_fu_207">dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0, 0, 80, 603, 4235, 0</column>
 <column name="call_ret5_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s_fu_360">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s, 0, 0, 0, 896, 0</column>
 <column name="call_ret1_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s_fu_243">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s, 0, 0, 0, 1792, 0</column>
 <column name="call_ret3_relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s_fu_324">relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s, 0, 0, 0, 896, 0</column>

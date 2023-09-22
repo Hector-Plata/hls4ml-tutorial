@@ -22,14 +22,14 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>54</Best-caseLatency>
-<Average-caseLatency>54</Average-caseLatency>
-<Worst-caseLatency>54</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.270 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.270 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.270 us</Worst-caseRealTimeLatency>
+<Best-caseLatency>52</Best-caseLatency>
+<Average-caseLatency>52</Average-caseLatency>
+<Worst-caseLatency>52</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.260 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.260 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.260 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>15</PipelineInitiationInterval>
-<PipelineDepth>55</PipelineDepth>
+<PipelineDepth>53</PipelineDepth>
 <Interval-min>15</Interval-min>
 <Interval-max>15</Interval-max>
 </SummaryOfOverallLatency>
@@ -39,8 +39,8 @@
 <Resources>
 <BRAM_18K>4</BRAM_18K>
 <DSP48E>9</DSP48E>
-<FF>17944</FF>
-<LUT>33542</LUT>
+<FF>17330</FF>
+<LUT>33690</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

@@ -22,24 +22,24 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>9</Best-caseLatency>
-<Average-caseLatency>9</Average-caseLatency>
-<Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>45.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>45.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>45.000 ns</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>10</PipelineInitiationInterval>
-<PipelineDepth>10</PipelineDepth>
-<Interval-min>10</Interval-min>
-<Interval-max>10</Interval-max>
+<Best-caseLatency>8</Best-caseLatency>
+<Average-caseLatency>8</Average-caseLatency>
+<Worst-caseLatency>8</Worst-caseLatency>
+<Best-caseRealTimeLatency>40.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>40.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>40.000 ns</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>9</PipelineInitiationInterval>
+<PipelineDepth>9</PipelineDepth>
+<Interval-min>9</Interval-min>
+<Interval-max>9</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <DSP48E>4</DSP48E>
-<FF>5225</FF>
-<LUT>7015</LUT>
+<FF>4697</FF>
+<LUT>6983</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
@@ -748,39 +748,6 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_return_57</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_return_58</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_return_59</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_return_60</name>
 <Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.</Object>
 <Type>return value</Type>
 <Scope></Scope>

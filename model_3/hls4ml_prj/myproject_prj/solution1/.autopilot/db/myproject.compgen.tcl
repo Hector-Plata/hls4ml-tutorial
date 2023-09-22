@@ -11,7 +11,7 @@ set axilite_register_dict [dict create]
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 247 \
+    id 235 \
     name fc1_input_V \
     type other \
     dir I \
@@ -26,7 +26,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 248 \
+    id 236 \
     name layer13_out_0_V \
     type other \
     dir O \
@@ -41,7 +41,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 249 \
+    id 237 \
     name layer13_out_1_V \
     type other \
     dir O \
@@ -56,7 +56,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 250 \
+    id 238 \
     name layer13_out_2_V \
     type other \
     dir O \
@@ -71,7 +71,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 251 \
+    id 239 \
     name layer13_out_3_V \
     type other \
     dir O \
@@ -86,7 +86,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 252 \
+    id 240 \
     name layer13_out_4_V \
     type other \
     dir O \

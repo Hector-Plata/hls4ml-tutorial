@@ -7,7 +7,7 @@
 
 module myproject_axi_fpext_32ns_64_3_1
 #(parameter
-    ID         = 254,
+    ID         = 242,
     NUM_STAGE  = 3,
     din0_WIDTH = 32,
     dout_WIDTH = 64

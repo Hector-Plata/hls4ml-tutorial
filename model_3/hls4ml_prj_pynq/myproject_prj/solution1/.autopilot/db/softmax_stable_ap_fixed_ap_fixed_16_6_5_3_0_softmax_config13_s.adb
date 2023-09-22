@@ -5586,7 +5586,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U240</rtlName>
+              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U228</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -5734,7 +5734,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U241</rtlName>
+              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U229</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -5882,7 +5882,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U242</rtlName>
+              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U230</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6030,7 +6030,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U243</rtlName>
+              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U231</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -6178,7 +6178,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U244</rtlName>
+              <rtlName>myproject_axi_mul_mul_18s_18s_30_3_1_U232</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>30</bitwidth>
@@ -12162,7 +12162,7 @@
         <count>5</count>
         <item_version>0</item_version>
         <item>
-          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U240</first>
+          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U228</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12173,7 +12173,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U241</first>
+          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U229</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12184,7 +12184,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U242</first>
+          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U230</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12195,7 +12195,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U243</first>
+          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U231</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -12206,7 +12206,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U244</first>
+          <first>myproject_axi_mul_mul_18s_18s_30_3_1_U232</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>

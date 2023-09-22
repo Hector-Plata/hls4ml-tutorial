@@ -31,8 +31,8 @@ struct config2 : nnet::dense_config {
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned strategy = nnet::latency;
     static const unsigned reuse_factor = 1;
-    static const unsigned n_zeros = 767;
-    static const unsigned n_nonzeros = 257;
+    static const unsigned n_zeros = 768;
+    static const unsigned n_nonzeros = 256;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
     typedef model_default_t accum_t;

@@ -1622,7 +1622,7 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>tmp_477</name>
+						<name>tmp_453</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>15</lineNumber>
@@ -1915,7 +1915,7 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>tmp_478</name>
+						<name>tmp_454</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>15</lineNumber>
@@ -3827,7 +3827,7 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>tmp_479</name>
+						<name>tmp_455</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>15</lineNumber>
@@ -5407,7 +5407,7 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>tmp_481</name>
+						<name>tmp_457</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -5848,7 +5848,7 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>tmp_482</name>
+						<name>tmp_458</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -6877,7 +6877,7 @@
 					<Obj>
 						<type>0</type>
 						<id>169</id>
-						<name>tmp_483</name>
+						<name>tmp_459</name>
 						<fileName>firmware/myproject_axi.cpp</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>23</lineNumber>
@@ -11200,8 +11200,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>94</mMinLatency>
-			<mMaxLatency>94</mMaxLatency>
+			<mMinLatency>92</mMinLatency>
+			<mMaxLatency>92</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -11267,8 +11267,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>54</mMinLatency>
-			<mMaxLatency>54</mMaxLatency>
+			<mMinLatency>52</mMinLatency>
+			<mMaxLatency>52</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -11943,468 +11943,468 @@
 			<first>112</first>
 			<second>
 				<first>10</first>
-				<second>54</second>
+				<second>52</second>
 			</second>
 		</item>
 		<item>
 			<first>113</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>114</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>115</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>116</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>117</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>118</first>
 			<second>
-				<first>64</first>
+				<first>62</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>120</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>121</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>123</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>124</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>128</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>129</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>130</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>131</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>132</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>133</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>134</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>135</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>136</first>
 			<second>
-				<first>67</first>
+				<first>65</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>137</first>
 			<second>
-				<first>67</first>
+				<first>65</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>138</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>139</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>140</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>141</first>
 			<second>
-				<first>67</first>
+				<first>65</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>142</first>
 			<second>
-				<first>67</first>
+				<first>65</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>143</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>144</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>145</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>146</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>147</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>148</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>149</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>150</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>151</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>152</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>153</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>154</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>155</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>156</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>157</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>158</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>159</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>160</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>161</first>
 			<second>
-				<first>68</first>
+				<first>66</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>162</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>163</first>
 			<second>
-				<first>69</first>
+				<first>67</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>164</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>165</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>166</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>167</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>168</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>169</first>
 			<second>
-				<first>71</first>
+				<first>69</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>170</first>
 			<second>
-				<first>72</first>
+				<first>70</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>171</first>
 			<second>
-				<first>66</first>
+				<first>64</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>172</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>173</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>174</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>175</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>176</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>177</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>178</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>179</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>180</first>
 			<second>
-				<first>65</first>
+				<first>63</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>181</first>
 			<second>
-				<first>73</first>
+				<first>71</first>
 				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>183</first>
 			<second>
-				<first>74</first>
+				<first>72</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>185</first>
 			<second>
-				<first>75</first>
+				<first>73</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -12437,28 +12437,28 @@
 			<first>119</first>
 			<second>
 				<first>2</first>
-				<second>56</second>
+				<second>54</second>
 			</second>
 		</item>
 		<item>
 			<first>125</first>
 			<second>
-				<first>57</first>
-				<second>57</second>
+				<first>55</first>
+				<second>55</second>
 			</second>
 		</item>
 		<item>
 			<first>184</first>
 			<second>
-				<first>57</first>
-				<second>66</second>
+				<first>55</first>
+				<second>64</second>
 			</second>
 		</item>
 		<item>
 			<first>186</first>
 			<second>
-				<first>58</first>
-				<second>58</second>
+				<first>56</first>
+				<second>56</second>
 			</second>
 		</item>
 	</bblk_ent_exit>

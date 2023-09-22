@@ -22,24 +22,24 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>9</Best-caseLatency>
-<Average-caseLatency>9</Average-caseLatency>
-<Worst-caseLatency>9</Worst-caseLatency>
-<Best-caseRealTimeLatency>45.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>45.000 ns</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>45.000 ns</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>10</PipelineInitiationInterval>
-<PipelineDepth>10</PipelineDepth>
-<Interval-min>10</Interval-min>
-<Interval-max>10</Interval-max>
+<Best-caseLatency>8</Best-caseLatency>
+<Average-caseLatency>8</Average-caseLatency>
+<Worst-caseLatency>8</Worst-caseLatency>
+<Best-caseRealTimeLatency>40.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>40.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>40.000 ns</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>9</PipelineInitiationInterval>
+<PipelineDepth>9</PipelineDepth>
+<Interval-min>9</Interval-min>
+<Interval-max>9</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <DSP48E>0</DSP48E>
-<FF>5451</FF>
-<LUT>9782</LUT>
+<FF>5455</FF>
+<LUT>10247</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
@@ -417,39 +417,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ap_return_27</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_return_28</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>ap_return_29</name>
-<Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>16</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>ap_ce</name>
 <Object>dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1</Object>
 <Type>return value</Type>
@@ -626,19 +593,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>data_17_V_read</name>
-<Object>data_17_V_read</Object>
-<Type>scalar</Type>
-<Scope></Scope>
-<IOProtocol>ap_none</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>6</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>data_18_V_read</name>
-<Object>data_18_V_read</Object>
+<name>data_16_V_read</name>
+<Object>data_16_V_read</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -793,6 +749,17 @@
 <RtlPorts>
 <name>data_32_V_read</name>
 <Object>data_32_V_read</Object>
+<Type>scalar</Type>
+<Scope></Scope>
+<IOProtocol>ap_none</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>6</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>data_33_V_read</name>
+<Object>data_33_V_read</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -967,17 +934,6 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>data_49_V_read</name>
-<Object>data_49_V_read</Object>
-<Type>scalar</Type>
-<Scope></Scope>
-<IOProtocol>ap_none</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>6</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_50_V_read</name>
 <Object>data_50_V_read</Object>
 <Type>scalar</Type>
@@ -1044,30 +1000,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>data_56_V_read</name>
-<Object>data_56_V_read</Object>
-<Type>scalar</Type>
-<Scope></Scope>
-<IOProtocol>ap_none</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>6</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
 <name>data_57_V_read</name>
 <Object>data_57_V_read</Object>
-<Type>scalar</Type>
-<Scope></Scope>
-<IOProtocol>ap_none</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>6</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>data_58_V_read</name>
-<Object>data_58_V_read</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

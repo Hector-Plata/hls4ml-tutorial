@@ -384,12 +384,12 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.067"
+          "Estimate": "4.356"
         },
         "Area": {
-          "DSP48E": "477",
-          "FF": "1709",
-          "LUT": "21953",
+          "DSP48E": "466",
+          "FF": "1714",
+          "LUT": "22264",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -428,12 +428,12 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.371"
+          "Estimate": "4.284"
         },
         "Area": {
-          "DSP48E": "575",
-          "FF": "2447",
-          "LUT": "35828",
+          "DSP48E": "571",
+          "FF": "2445",
+          "LUT": "37490",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -472,12 +472,12 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.026"
+          "Estimate": "4.350"
         },
         "Area": {
-          "DSP48E": "349",
-          "FF": "1449",
-          "LUT": "18570",
+          "DSP48E": "322",
+          "FF": "1482",
+          "LUT": "18939",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -520,8 +520,8 @@
         },
         "Area": {
           "DSP48E": "80",
-          "FF": "517",
-          "LUT": "4167",
+          "FF": "603",
+          "LUT": "4235",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -560,13 +560,13 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "0.62",
-          "Estimate": "4.371"
+          "Estimate": "4.357"
         },
         "Area": {
           "BRAM_18K": "4",
-          "DSP48E": "1486",
-          "FF": "8756",
-          "LUT": "84841",
+          "DSP48E": "1444",
+          "FF": "8878",
+          "LUT": "87251",
           "URAM": "0"
         }
       }
@@ -582,7 +582,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2023-09-22 02:12:20 UTC",
+    "Time": "2023-09-22 04:03:26 UTC",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.2"
   }

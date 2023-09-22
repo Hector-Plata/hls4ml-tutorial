@@ -366,7 +366,7 @@ begin
         ce0 => invert_table2_ce0,
         q0 => invert_table2_q0);
 
-    myproject_axi_mul_mul_18s_18s_30_3_1_U240 : component myproject_axi_mul_mul_18s_18s_30_3_1
+    myproject_axi_mul_mul_18s_18s_30_3_1_U228 : component myproject_axi_mul_mul_18s_18s_30_3_1
     generic map (
         ID => 1,
         NUM_STAGE => 3,
@@ -381,7 +381,7 @@ begin
         ce => grp_fu_800_ce,
         dout => grp_fu_800_p2);
 
-    myproject_axi_mul_mul_18s_18s_30_3_1_U241 : component myproject_axi_mul_mul_18s_18s_30_3_1
+    myproject_axi_mul_mul_18s_18s_30_3_1_U229 : component myproject_axi_mul_mul_18s_18s_30_3_1
     generic map (
         ID => 1,
         NUM_STAGE => 3,
@@ -396,7 +396,7 @@ begin
         ce => grp_fu_806_ce,
         dout => grp_fu_806_p2);
 
-    myproject_axi_mul_mul_18s_18s_30_3_1_U242 : component myproject_axi_mul_mul_18s_18s_30_3_1
+    myproject_axi_mul_mul_18s_18s_30_3_1_U230 : component myproject_axi_mul_mul_18s_18s_30_3_1
     generic map (
         ID => 1,
         NUM_STAGE => 3,
@@ -411,7 +411,7 @@ begin
         ce => grp_fu_812_ce,
         dout => grp_fu_812_p2);
 
-    myproject_axi_mul_mul_18s_18s_30_3_1_U243 : component myproject_axi_mul_mul_18s_18s_30_3_1
+    myproject_axi_mul_mul_18s_18s_30_3_1_U231 : component myproject_axi_mul_mul_18s_18s_30_3_1
     generic map (
         ID => 1,
         NUM_STAGE => 3,
@@ -426,7 +426,7 @@ begin
         ce => grp_fu_818_ce,
         dout => grp_fu_818_p2);
 
-    myproject_axi_mul_mul_18s_18s_30_3_1_U244 : component myproject_axi_mul_mul_18s_18s_30_3_1
+    myproject_axi_mul_mul_18s_18s_30_3_1_U232 : component myproject_axi_mul_mul_18s_18s_30_3_1
     generic map (
         ID => 1,
         NUM_STAGE => 3,

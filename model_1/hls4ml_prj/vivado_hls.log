@@ -7,25 +7,27 @@
 source /opt/Xilinx/Vivado/2019.2/scripts/vivado_hls/hls.tcl -notrace
 INFO: Applying HLS Y2K22 patch v1.2 for IP revision
 INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'jovyan' on host 'dba9c4fe0283' (Linux_x86_64 version 6.1.53-1-lts) on Fri Sep 22 01:52:58 UTC 2023
+INFO: [HLS 200-10] For user 'jovyan' on host '075424d61e46' (Linux_x86_64 version 6.1.53-1-lts) on Fri Sep 22 03:27:43 UTC 2023
 INFO: [HLS 200-10] In directory '/home/jovyan/hls4ml-tutorial/model_1/hls4ml_prj'
 Sourcing Tcl script 'build_prj.tcl'
-INFO: [HLS 200-10] Creating and opening project '/home/jovyan/hls4ml-tutorial/model_1/hls4ml_prj/myproject_prj'.
+INFO: [HLS 200-10] Opening project '/home/jovyan/hls4ml-tutorial/model_1/hls4ml_prj/myproject_prj'.
 INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
 INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
-INFO: [HLS 200-10] Creating and opening solution '/home/jovyan/hls4ml-tutorial/model_1/hls4ml_prj/myproject_prj/solution1'.
-INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
-INFO: [XFORM 203-1161] The maximum of name length is set into 80.
-INFO: [HLS 200-10] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [HLS 200-10] Opening solution '/home/jovyan/hls4ml-tutorial/model_1/hls4ml_prj/myproject_prj/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
 INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.625ns.
+INFO: [HLS 200-10] Setting target device to 'xcu250-figd2104-2L-e'
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
+INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
 ***** C/RTL SYNTHESIS *****
 INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
 INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 861.133 ; gain = 457.035 ; free physical = 7203 ; free virtual = 27553
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 861.133 ; gain = 457.035 ; free physical = 7203 ; free virtual = 27553
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 2844 ; free virtual = 27112
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 2844 ; free virtual = 27112
 INFO: [HLS 200-10] Starting code transformations ...
 INFO: [XFORM 203-603] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product' into 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_dense_latency.h:42).
 INFO: [XFORM 203-603] Inlining function 'nnet::product::mult<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::product' into 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>' (firmware/nnet_utils/nnet_dense_latency.h:42).
@@ -36,7 +38,7 @@ INFO: [XFORM 203-603] Inlining function 'nnet::dense<ap_fixed<16, 6, (ap_q_mode)
 INFO: [XFORM 203-603] Inlining function 'nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>' into 'myproject' (firmware/myproject.cpp:57).
 INFO: [XFORM 203-603] Inlining function 'nnet::dense<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>' into 'myproject' (firmware/myproject.cpp:65).
 INFO: [XFORM 203-603] Inlining function 'nnet::softmax<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' into 'myproject' (firmware/myproject.cpp:67).
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 7172 ; free virtual = 27533
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 2811 ; free virtual = 27076
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' into 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>' (firmware/nnet_utils/nnet_dense_latency.h:66) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>' into 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>' (firmware/nnet_utils/nnet_dense_latency.h:66) automatically.
@@ -55,7 +57,7 @@ INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<16, 6, (ap_q_mode
 INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' (firmware/nnet_utils/nnet_activation.h:254) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 5, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' (firmware/nnet_utils/nnet_activation.h:262) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config13>' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' (firmware/nnet_utils/nnet_activation.h:265) automatically.
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 928.199 ; gain = 524.102 ; free physical = 7160 ; free virtual = 27523
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 925.133 ; gain = 521.035 ; free physical = 2801 ; free virtual = 27067
 INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' (firmware/nnet_utils/nnet_activation.h:217:46).
 INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>' (firmware/nnet_utils/nnet_dense_latency.h:17:48).
 INFO: [XFORM 203-502] Unrolling all loops for pipelining in function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, relu_config10>' (firmware/nnet_utils/nnet_activation.h:40:43).
@@ -277,11 +279,11 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (firmware/nnet_u
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (firmware/nnet_utils/nnet_common.h:43:16) in function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >'... converting 5 basic blocks.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 5, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >' (firmware/nnet_utils/nnet_common.h:45->firmware/nnet_utils/nnet_common.h:45) automatically.
 INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0>, 5, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)0, (ap_o_mode)0, 0> > >' into 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' (firmware/nnet_utils/nnet_activation.h:262) automatically.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_mult.h:26:9)...847 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:27)...1691 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:27)...950 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:13)...146 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:04:15 ; elapsed = 00:04:18 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 4864 ; free virtual = 25227
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config8>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_mult.h:26:9)...844 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:27)...1687 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' (firmware/nnet_utils/nnet_mult.h:26:9)...960 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:13)...147 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:04:12 ; elapsed = 00:04:15 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2280 ; free virtual = 24807
 WARNING: [XFORM 203-631] Renaming function 'nnet::softmax_stable<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config13>' to 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>' (firmware/nnet_utils/nnet_activation.h:43:1)
 WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, relu_config7>' to 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>' (firmware/nnet_utils/nnet_activation.h:39)
 WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, relu_config4>' to 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4>' (firmware/nnet_utils/nnet_activation.h:39)
@@ -290,7 +292,7 @@ WARNING: [XFORM 203-631] Renaming function 'nnet::dense_latency<ap_fixed<16, 6, 
 WARNING: [XFORM 203-631] Renaming function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config5>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' to 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1' (firmware/nnet_utils/nnet_mult.h:26:9)
 WARNING: [XFORM 203-631] Renaming function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config2>.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0' to 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.' (firmware/nnet_utils/nnet_mult.h:26:9)
 WARNING: [XFORM 203-631] Renaming function 'nnet::dense_latency<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, config11>.0.0.0.0.0.0' to 'dense_latency<ap_fixed,ap_fixed<16,6,5,3,0>,config11>.0.0.0.0.0.0' (firmware/nnet_utils/nnet_dense_latency.h:26:13)
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:05:04 ; elapsed = 00:05:07 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 4869 ; free virtual = 25235
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:05:03 ; elapsed = 00:05:06 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2296 ; free virtual = 24823
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'myproject' ...
 WARNING: [SYN 201-103] Legalizing function name 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.' to 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s'.
@@ -308,14 +310,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 309.18 seconds; current allocated memory: 397.339 MB.
+INFO: [HLS 200-111]  Elapsed time: 308.14 seconds; current allocated memory: 396.656 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 11.59 seconds; current allocated memory: 447.831 MB.
+INFO: [HLS 200-111]  Elapsed time: 11.8 seconds; current allocated memory: 447.151 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -323,13 +325,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config4>'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 9.65 seconds; current allocated memory: 450.768 MB.
+INFO: [HLS 200-111]  Elapsed time: 9.26 seconds; current allocated memory: 450.088 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.84 seconds; current allocated memory: 452.273 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.81 seconds; current allocated memory: 451.594 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -337,14 +339,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 3.92 seconds; current allocated memory: 472.317 MB.
+INFO: [HLS 200-111]  Elapsed time: 3.89 seconds; current allocated memory: 471.644 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 24.45 seconds; current allocated memory: 513.297 MB.
+INFO: [HLS 200-111]  Elapsed time: 23.94 seconds; current allocated memory: 511.938 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -352,13 +354,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config7>'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 16.38 seconds; current allocated memory: 516.625 MB.
+INFO: [HLS 200-111]  Elapsed time: 16.02 seconds; current allocated memory: 515.217 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.49 seconds; current allocated memory: 517.407 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 515.999 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -366,14 +368,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 2.03 seconds; current allocated memory: 527.521 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.91 seconds; current allocated memory: 525.780 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 9.93 seconds; current allocated memory: 566.832 MB.
+INFO: [HLS 200-111]  Elapsed time: 9.64 seconds; current allocated memory: 561.426 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -381,13 +383,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'relu<ap_fixed<16, 6, 5, 3, 0>, ap_fixed<16, 6, 5, 3, 0>, relu_config10>'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 1.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 8.11 seconds; current allocated memory: 568.830 MB.
+INFO: [HLS 200-111]  Elapsed time: 8.11 seconds; current allocated memory: 563.412 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.43 seconds; current allocated memory: 569.576 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 564.195 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -395,14 +397,14 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'dense_latency<ap_fixed,ap_fixed<16,6,5,3,0>,config11>.0.0.0.0.0.0'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.84 seconds; current allocated memory: 571.756 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.8 seconds; current allocated memory: 566.352 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Starting global binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 1.58 seconds; current allocated memory: 575.637 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.54 seconds; current allocated memory: 570.145 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -410,13 +412,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'softmax_stable<ap_fixed,ap_fixed<16,6,5,3,0>,softmax_config13>'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 5.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 1.59 seconds; current allocated memory: 576.570 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.58 seconds; current allocated memory: 571.061 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.43 seconds; current allocated memory: 577.207 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.38 seconds; current allocated memory: 571.716 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -424,57 +426,57 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'myproject'.
 INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 14.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.48 seconds; current allocated memory: 578.005 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.48 seconds; current allocated memory: 572.496 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 8.74 seconds; current allocated memory: 588.931 MB.
+INFO: [HLS 200-111]  Elapsed time: 8.57 seconds; current allocated memory: 583.282 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s' is 7696 from HDL expression: (1'b0 == ap_block_pp0_stage0)
+INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s' is 7616 from HDL expression: (1'b0 == ap_block_pp0_stage0)
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s'.
-INFO: [HLS 200-111]  Elapsed time: 5.65 seconds; current allocated memory: 625.847 MB.
+INFO: [HLS 200-111]  Elapsed time: 5.58 seconds; current allocated memory: 619.936 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config4_s'.
-INFO: [HLS 200-111]  Elapsed time: 13.69 seconds; current allocated memory: 696.879 MB.
+INFO: [HLS 200-111]  Elapsed time: 13.23 seconds; current allocated memory: 690.842 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' is 22832 from HDL expression: (1'b0 == ap_block_pp0_stage0)
+INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1' is 22304 from HDL expression: (1'b0 == ap_block_pp0_stage0)
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1'.
-INFO: [HLS 200-111]  Elapsed time: 2.68 seconds; current allocated memory: 741.938 MB.
+INFO: [HLS 200-111]  Elapsed time: 2.65 seconds; current allocated memory: 736.079 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config7_s'.
-INFO: [HLS 200-111]  Elapsed time: 24.97 seconds; current allocated memory: 845.795 MB.
+INFO: [HLS 200-111]  Elapsed time: 24.74 seconds; current allocated memory: 840.138 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' is 11840 from HDL expression: (1'b0 == ap_block_pp0_stage0)
+INFO: [RTGEN 206-104] Estimated max fanout for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0' is 11024 from HDL expression: (1'b0 == ap_block_pp0_stage0)
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0'.
-INFO: [HLS 200-111]  Elapsed time: 2.95 seconds; current allocated memory: 870.154 MB.
+INFO: [HLS 200-111]  Elapsed time: 2.85 seconds; current allocated memory: 863.920 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_relu_config10_s'.
-INFO: [HLS 200-111]  Elapsed time: 13.65 seconds; current allocated memory: 923.660 MB.
+INFO: [HLS 200-111]  Elapsed time: 12.79 seconds; current allocated memory: 916.030 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_latency_ap_fixed_ap_fixed_16_6_5_3_0_config11_0_0_0_0_0_0'.
-INFO: [HLS 200-111]  Elapsed time: 3.16 seconds; current allocated memory: 930.218 MB.
+INFO: [HLS 200-111]  Elapsed time: 3.12 seconds; current allocated memory: 922.629 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_18s_17ns_26_1_1': 5 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s'.
-INFO: [HLS 200-111]  Elapsed time: 4.76 seconds; current allocated memory: 941.606 MB.
+INFO: [HLS 200-111]  Elapsed time: 4.63 seconds; current allocated memory: 933.926 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -486,13 +488,13 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer13_out_3_V'
 INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer13_out_4_V' to 'ap_vld'.
 INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
-INFO: [HLS 200-111]  Elapsed time: 3.56 seconds; current allocated memory: 962.921 MB.
-INFO: [HLS 200-789] **** Estimated Fmax: 228.78 MHz
+INFO: [HLS 200-111]  Elapsed time: 3.64 seconds; current allocated memory: 955.260 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 229.54 MHz
 INFO: [RTMG 210-279] Implementing memory 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_exp_table1_rom' using block ROMs.
 INFO: [RTMG 210-279] Implementing memory 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s_invert_table2_rom' using auto ROMs.
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:07:59 ; elapsed = 00:08:18 . Memory (MB): peak = 5135.164 ; gain = 4731.066 ; free physical = 4299 ; free virtual = 24971
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:07:53 ; elapsed = 00:08:13 . Memory (MB): peak = 5133.164 ; gain = 4729.066 ; free physical = 2233 ; free virtual = 24783
 INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
 INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
-***** C/RTL SYNTHESIS COMPLETED IN 0h8m16s *****
-INFO: [HLS 200-112] Total elapsed time: 497.8 seconds; peak allocated memory: 962.921 MB.
-INFO: [Common 17-206] Exiting vivado_hls at Fri Sep 22 02:01:16 2023...
+***** C/RTL SYNTHESIS COMPLETED IN 0h8m11s *****
+INFO: [HLS 200-112] Total elapsed time: 492.79 seconds; peak allocated memory: 955.260 MB.
+INFO: [Common 17-206] Exiting vivado_hls at Fri Sep 22 03:35:55 2023...

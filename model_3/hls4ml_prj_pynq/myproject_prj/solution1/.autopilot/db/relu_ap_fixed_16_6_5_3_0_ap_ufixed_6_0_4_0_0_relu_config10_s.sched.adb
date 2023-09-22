@@ -43,34 +43,6 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>data_1_V_read</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName>data[1].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>0</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_3">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>3</id>
 						<name>data_2_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -94,11 +66,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_4">
+			<item class_id_reference="3" object_id="_3">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>4</id>
+						<id>3</id>
 						<name>data_3_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -122,11 +94,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_5">
+			<item class_id_reference="3" object_id="_4">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>5</id>
+						<id>4</id>
 						<name>data_4_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -150,11 +122,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_6">
+			<item class_id_reference="3" object_id="_5">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>6</id>
+						<id>5</id>
 						<name>data_5_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -178,11 +150,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_7">
+			<item class_id_reference="3" object_id="_6">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>7</id>
+						<id>6</id>
 						<name>data_6_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -193,6 +165,34 @@
 							<item_version>0</item_version>
 						</inlineStackInfo>
 						<originalName>data[6].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>0</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_7">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>7</id>
+						<name>data_7_V_read</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName>data[7].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -295,34 +295,6 @@
 					<Obj>
 						<type>1</type>
 						<id>11</id>
-						<name>data_11_V_read</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName>data[11].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>0</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_12">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>12</id>
 						<name>data_12_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -346,11 +318,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_13">
+			<item class_id_reference="3" object_id="_12">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>13</id>
+						<id>12</id>
 						<name>data_13_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -374,11 +346,67 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
+			<item class_id_reference="3" object_id="_13">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>13</id>
+						<name>data_15_V_read</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName>data[15].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>0</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
 			<item class_id_reference="3" object_id="_14">
 				<Value>
 					<Obj>
 						<type>1</type>
 						<id>14</id>
+						<name>data_16_V_read</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName>data[16].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>0</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_15">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>15</id>
 						<name>data_17_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -402,11 +430,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_15">
+			<item class_id_reference="3" object_id="_16">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>15</id>
+						<id>16</id>
 						<name>data_18_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -430,11 +458,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_16">
+			<item class_id_reference="3" object_id="_17">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>16</id>
+						<id>17</id>
 						<name>data_19_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -458,11 +486,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_17">
+			<item class_id_reference="3" object_id="_18">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>17</id>
+						<id>18</id>
 						<name>data_20_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -486,11 +514,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_18">
+			<item class_id_reference="3" object_id="_19">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>18</id>
+						<id>19</id>
 						<name>data_21_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -514,11 +542,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_19">
+			<item class_id_reference="3" object_id="_20">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>19</id>
+						<id>20</id>
 						<name>data_22_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -542,11 +570,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_20">
+			<item class_id_reference="3" object_id="_21">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>20</id>
+						<id>21</id>
 						<name>data_24_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -570,11 +598,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_21">
+			<item class_id_reference="3" object_id="_22">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>21</id>
+						<id>22</id>
 						<name>data_25_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -598,11 +626,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_22">
+			<item class_id_reference="3" object_id="_23">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>22</id>
+						<id>23</id>
 						<name>data_26_V_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -613,34 +641,6 @@
 							<item_version>0</item_version>
 						</inlineStackInfo>
 						<originalName>data[26].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>0</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_23">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>23</id>
-						<name>data_28_V_read</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName>data[28].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -768,7 +768,7 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>data_29_V_read_3</name>
+						<name>data_29_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -817,56 +817,7 @@
 					<Obj>
 						<type>0</type>
 						<id>28</id>
-						<name>data_28_V_read_3</name>
-						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation.h</first>
-											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>data[28].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>584</item>
-					<item>585</item>
-				</oprand_edges>
-				<opcode>read</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>3</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_29">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>29</id>
-						<name>data_26_V_read22</name>
+						<name>data_26_V_read_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -898,8 +849,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>586</item>
-					<item>587</item>
+					<item>584</item>
+					<item>585</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -907,15 +858,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>4</m_topoIndex>
+				<m_topoIndex>3</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_30">
+			<item class_id_reference="9" object_id="_29">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>30</id>
-						<name>data_25_V_read21</name>
+						<id>29</id>
+						<name>data_25_V_read22</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -947,8 +898,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>588</item>
-					<item>589</item>
+					<item>586</item>
+					<item>587</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -956,15 +907,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>5</m_topoIndex>
+				<m_topoIndex>4</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_31">
+			<item class_id_reference="9" object_id="_30">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>31</id>
-						<name>data_24_V_read_3</name>
+						<id>30</id>
+						<name>data_24_V_read21</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -996,8 +947,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>590</item>
-					<item>591</item>
+					<item>588</item>
+					<item>589</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1005,14 +956,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>6</m_topoIndex>
+				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_32">
+			<item class_id_reference="9" object_id="_31">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>32</id>
+						<id>31</id>
 						<name>data_22_V_read_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1045,8 +996,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>592</item>
-					<item>593</item>
+					<item>590</item>
+					<item>591</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1054,14 +1005,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>7</m_topoIndex>
+				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_33">
+			<item class_id_reference="9" object_id="_32">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>33</id>
+						<id>32</id>
 						<name>data_21_V_read_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1094,8 +1045,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>594</item>
-					<item>595</item>
+					<item>592</item>
+					<item>593</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1103,14 +1054,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>8</m_topoIndex>
+				<m_topoIndex>7</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_34">
+			<item class_id_reference="9" object_id="_33">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>34</id>
+						<id>33</id>
 						<name>data_20_V_read_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1143,8 +1094,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>596</item>
-					<item>597</item>
+					<item>594</item>
+					<item>595</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1152,14 +1103,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>9</m_topoIndex>
+				<m_topoIndex>8</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_35">
+			<item class_id_reference="9" object_id="_34">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>35</id>
+						<id>34</id>
 						<name>data_19_V_read_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1192,8 +1143,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>598</item>
-					<item>599</item>
+					<item>596</item>
+					<item>597</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1201,15 +1152,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>10</m_topoIndex>
+				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_36">
+			<item class_id_reference="9" object_id="_35">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>36</id>
-						<name>data_18_V_read_3</name>
+						<id>35</id>
+						<name>data_18_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1241,8 +1192,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>600</item>
-					<item>601</item>
+					<item>598</item>
+					<item>599</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1250,15 +1201,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>11</m_topoIndex>
+				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_37">
+			<item class_id_reference="9" object_id="_36">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>37</id>
-						<name>data_17_V_read_3</name>
+						<id>36</id>
+						<name>data_17_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1290,6 +1241,55 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>600</item>
+					<item>601</item>
+				</oprand_edges>
+				<opcode>read</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>11</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_37">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>37</id>
+						<name>data_16_V_read_3</name>
+						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
+						<lineNumber>39</lineNumber>
+						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation.h</first>
+											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>39</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>data[16].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
 					<item>602</item>
 					<item>603</item>
 				</oprand_edges>
@@ -1307,6 +1307,55 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
+						<name>data_15_V_read_3</name>
+						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
+						<lineNumber>39</lineNumber>
+						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation.h</first>
+											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>39</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>data[15].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>604</item>
+					<item>605</item>
+				</oprand_edges>
+				<opcode>read</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>13</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_39">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>39</id>
 						<name>data_13_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1339,8 +1388,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>604</item>
-					<item>605</item>
+					<item>606</item>
+					<item>607</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1348,15 +1397,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>13</m_topoIndex>
+				<m_topoIndex>14</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_39">
+			<item class_id_reference="9" object_id="_40">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>39</id>
-						<name>data_12_V_read_2</name>
+						<id>40</id>
+						<name>data_12_V_read11</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1388,55 +1437,6 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>606</item>
-					<item>607</item>
-				</oprand_edges>
-				<opcode>read</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>14</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_40">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>40</id>
-						<name>data_11_V_read11</name>
-						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation.h</first>
-											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>data[11].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
 					<item>608</item>
 					<item>609</item>
 				</oprand_edges>
@@ -1454,7 +1454,7 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>data_10_V_read_3</name>
+						<name>data_10_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1601,7 +1601,56 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>data_6_V_read_3</name>
+						<name>data_7_V_read_3</name>
+						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
+						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
+						<lineNumber>39</lineNumber>
+						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation.h</first>
+											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>39</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>data[7].V</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>616</item>
+					<item>617</item>
+				</oprand_edges>
+				<opcode>read</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>19</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_45">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>45</id>
+						<name>data_6_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1633,8 +1682,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>616</item>
-					<item>617</item>
+					<item>618</item>
+					<item>619</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1642,15 +1691,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>19</m_topoIndex>
+				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_45">
+			<item class_id_reference="9" object_id="_46">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>45</id>
-						<name>data_5_V_read_3</name>
+						<id>46</id>
+						<name>data_5_V_read_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>39</lineNumber>
@@ -1682,8 +1731,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>618</item>
-					<item>619</item>
+					<item>620</item>
+					<item>621</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1691,14 +1740,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>20</m_topoIndex>
+				<m_topoIndex>21</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_46">
+			<item class_id_reference="9" object_id="_47">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>46</id>
+						<id>47</id>
 						<name>data_4_V_read_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1731,8 +1780,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>620</item>
-					<item>621</item>
+					<item>622</item>
+					<item>623</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1740,14 +1789,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>21</m_topoIndex>
+				<m_topoIndex>22</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_47">
+			<item class_id_reference="9" object_id="_48">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>47</id>
+						<id>48</id>
 						<name>data_3_V_read_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1780,8 +1829,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>622</item>
-					<item>623</item>
+					<item>624</item>
+					<item>625</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -1789,14 +1838,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>22</m_topoIndex>
+				<m_topoIndex>23</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_48">
+			<item class_id_reference="9" object_id="_49">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>48</id>
+						<id>49</id>
 						<name>data_2_V_read_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
@@ -1821,55 +1870,6 @@
 							</item>
 						</inlineStackInfo>
 						<originalName>data[2].V</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>624</item>
-					<item>625</item>
-				</oprand_edges>
-				<opcode>read</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>23</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_49">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>49</id>
-						<name>data_1_V_read_4</name>
-						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
-						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation.h</first>
-											<second>relu&amp;lt;ap_fixed&amp;lt;16, 6, 5, 3, 0&amp;gt;, ap_ufixed&amp;lt;6, 0, 4, 0, 0&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>data[1].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -2191,7 +2191,7 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>tmp_377</name>
+						<name>tmp_353</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -2290,7 +2290,7 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>tmp_378</name>
+						<name>tmp_354</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -2486,7 +2486,7 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>tmp_379</name>
+						<name>tmp_355</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -2933,7 +2933,7 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>icmp_ln1494_1</name>
+						<name>icmp_ln1494_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -3033,7 +3033,7 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>tmp_380</name>
+						<name>tmp_356</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3083,7 +3083,7 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>trunc_ln718_90</name>
+						<name>trunc_ln718_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3131,7 +3131,7 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>icmp_ln718_90</name>
+						<name>icmp_ln718_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3180,7 +3180,7 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>tmp_381</name>
+						<name>tmp_357</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3230,7 +3230,7 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>or_ln412_90</name>
+						<name>or_ln412_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3279,7 +3279,7 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>tmp_382</name>
+						<name>tmp_358</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3329,7 +3329,7 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>and_ln415_1</name>
+						<name>and_ln415_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3378,7 +3378,7 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>zext_ln415_90</name>
+						<name>zext_ln415_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3426,7 +3426,7 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>add_ln415_90</name>
+						<name>add_ln415_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3475,7 +3475,7 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>tmp_383</name>
+						<name>tmp_359</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3525,7 +3525,7 @@
 					<Obj>
 						<type>0</type>
 						<id>84</id>
-						<name>xor_ln416_90</name>
+						<name>xor_ln416_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3574,7 +3574,7 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>and_ln416_90</name>
+						<name>and_ln416_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3623,7 +3623,7 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>p_Result_24_1</name>
+						<name>p_Result_24_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3674,7 +3674,7 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>icmp_ln879_90</name>
+						<name>icmp_ln879_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3723,7 +3723,7 @@
 					<Obj>
 						<type>0</type>
 						<id>88</id>
-						<name>icmp_ln768_90</name>
+						<name>icmp_ln768_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3772,7 +3772,7 @@
 					<Obj>
 						<type>0</type>
 						<id>89</id>
-						<name>select_ln777_90</name>
+						<name>select_ln777_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3822,7 +3822,7 @@
 					<Obj>
 						<type>0</type>
 						<id>90</id>
-						<name>select_ln340_1</name>
+						<name>select_ln340_2</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3872,7 +3872,7 @@
 					<Obj>
 						<type>0</type>
 						<id>91</id>
-						<name>select_ln1494_90</name>
+						<name>select_ln1494_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -3895,7 +3895,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[1].V</originalName>
+						<originalName>res[2].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -3922,7 +3922,7 @@
 					<Obj>
 						<type>0</type>
 						<id>92</id>
-						<name>icmp_ln1494_2</name>
+						<name>icmp_ln1494_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -3971,7 +3971,7 @@
 					<Obj>
 						<type>0</type>
 						<id>93</id>
-						<name>trunc_ln708_88</name>
+						<name>trunc_ln708_82</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4022,7 +4022,7 @@
 					<Obj>
 						<type>0</type>
 						<id>94</id>
-						<name>tmp_384</name>
+						<name>tmp_360</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4072,7 +4072,7 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>trunc_ln718_91</name>
+						<name>trunc_ln718_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4120,7 +4120,7 @@
 					<Obj>
 						<type>0</type>
 						<id>96</id>
-						<name>icmp_ln718_91</name>
+						<name>icmp_ln718_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4169,7 +4169,7 @@
 					<Obj>
 						<type>0</type>
 						<id>97</id>
-						<name>tmp_385</name>
+						<name>tmp_361</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4219,7 +4219,7 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>or_ln412_91</name>
+						<name>or_ln412_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4268,7 +4268,7 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>tmp_386</name>
+						<name>tmp_362</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4318,7 +4318,7 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>and_ln415_2</name>
+						<name>and_ln415_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4367,7 +4367,7 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>zext_ln415_91</name>
+						<name>zext_ln415_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4415,7 +4415,7 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>add_ln415_91</name>
+						<name>add_ln415_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4464,7 +4464,7 @@
 					<Obj>
 						<type>0</type>
 						<id>103</id>
-						<name>tmp_387</name>
+						<name>tmp_363</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4514,7 +4514,7 @@
 					<Obj>
 						<type>0</type>
 						<id>104</id>
-						<name>xor_ln416_91</name>
+						<name>xor_ln416_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4563,7 +4563,7 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>and_ln416_91</name>
+						<name>and_ln416_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4612,7 +4612,7 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>p_Result_24_2</name>
+						<name>p_Result_24_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4663,7 +4663,7 @@
 					<Obj>
 						<type>0</type>
 						<id>107</id>
-						<name>icmp_ln879_91</name>
+						<name>icmp_ln879_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4712,7 +4712,7 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>icmp_ln768_91</name>
+						<name>icmp_ln768_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4761,7 +4761,7 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>select_ln777_91</name>
+						<name>select_ln777_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4811,7 +4811,7 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>select_ln340_2</name>
+						<name>select_ln340_3</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -4861,7 +4861,7 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>select_ln1494_91</name>
+						<name>select_ln1494_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -4884,7 +4884,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[2].V</originalName>
+						<originalName>res[3].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -4911,7 +4911,7 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>icmp_ln1494_3</name>
+						<name>icmp_ln1494_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -4960,7 +4960,7 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>trunc_ln708_89</name>
+						<name>trunc_ln708_83</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5011,7 +5011,7 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>tmp_388</name>
+						<name>tmp_364</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5061,7 +5061,7 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>trunc_ln718_92</name>
+						<name>trunc_ln718_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5109,7 +5109,7 @@
 					<Obj>
 						<type>0</type>
 						<id>116</id>
-						<name>icmp_ln718_92</name>
+						<name>icmp_ln718_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5158,7 +5158,7 @@
 					<Obj>
 						<type>0</type>
 						<id>117</id>
-						<name>tmp_389</name>
+						<name>tmp_365</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5208,7 +5208,7 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>or_ln412_92</name>
+						<name>or_ln412_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5257,7 +5257,7 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>tmp_390</name>
+						<name>tmp_366</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5307,7 +5307,7 @@
 					<Obj>
 						<type>0</type>
 						<id>120</id>
-						<name>and_ln415_3</name>
+						<name>and_ln415_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5356,7 +5356,7 @@
 					<Obj>
 						<type>0</type>
 						<id>121</id>
-						<name>zext_ln415_92</name>
+						<name>zext_ln415_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5404,7 +5404,7 @@
 					<Obj>
 						<type>0</type>
 						<id>122</id>
-						<name>add_ln415_92</name>
+						<name>add_ln415_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5453,7 +5453,7 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>tmp_391</name>
+						<name>tmp_367</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5503,7 +5503,7 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>xor_ln416_92</name>
+						<name>xor_ln416_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5552,7 +5552,7 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>and_ln416_92</name>
+						<name>and_ln416_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5601,7 +5601,7 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>p_Result_24_3</name>
+						<name>p_Result_24_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5652,7 +5652,7 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>icmp_ln879_92</name>
+						<name>icmp_ln879_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5701,7 +5701,7 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>icmp_ln768_92</name>
+						<name>icmp_ln768_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5750,7 +5750,7 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>select_ln777_92</name>
+						<name>select_ln777_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5800,7 +5800,7 @@
 					<Obj>
 						<type>0</type>
 						<id>130</id>
-						<name>select_ln340_3</name>
+						<name>select_ln340_4</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5850,7 +5850,7 @@
 					<Obj>
 						<type>0</type>
 						<id>131</id>
-						<name>select_ln1494_92</name>
+						<name>select_ln1494_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -5873,7 +5873,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[3].V</originalName>
+						<originalName>res[4].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -5900,7 +5900,7 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>icmp_ln1494_4</name>
+						<name>icmp_ln1494_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -5949,7 +5949,7 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>trunc_ln708_90</name>
+						<name>trunc_ln708_84</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6000,7 +6000,7 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>tmp_392</name>
+						<name>tmp_368</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6050,7 +6050,7 @@
 					<Obj>
 						<type>0</type>
 						<id>135</id>
-						<name>trunc_ln718_93</name>
+						<name>trunc_ln718_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6098,7 +6098,7 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>icmp_ln718_93</name>
+						<name>icmp_ln718_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6147,7 +6147,7 @@
 					<Obj>
 						<type>0</type>
 						<id>137</id>
-						<name>tmp_393</name>
+						<name>tmp_369</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6197,7 +6197,7 @@
 					<Obj>
 						<type>0</type>
 						<id>138</id>
-						<name>or_ln412_93</name>
+						<name>or_ln412_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6246,7 +6246,7 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>tmp_394</name>
+						<name>tmp_370</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6296,7 +6296,7 @@
 					<Obj>
 						<type>0</type>
 						<id>140</id>
-						<name>and_ln415_4</name>
+						<name>and_ln415_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6345,7 +6345,7 @@
 					<Obj>
 						<type>0</type>
 						<id>141</id>
-						<name>zext_ln415_93</name>
+						<name>zext_ln415_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6393,7 +6393,7 @@
 					<Obj>
 						<type>0</type>
 						<id>142</id>
-						<name>add_ln415_93</name>
+						<name>add_ln415_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6442,7 +6442,7 @@
 					<Obj>
 						<type>0</type>
 						<id>143</id>
-						<name>tmp_395</name>
+						<name>tmp_371</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6492,7 +6492,7 @@
 					<Obj>
 						<type>0</type>
 						<id>144</id>
-						<name>xor_ln416_93</name>
+						<name>xor_ln416_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6541,7 +6541,7 @@
 					<Obj>
 						<type>0</type>
 						<id>145</id>
-						<name>and_ln416_93</name>
+						<name>and_ln416_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6590,7 +6590,7 @@
 					<Obj>
 						<type>0</type>
 						<id>146</id>
-						<name>p_Result_24_4</name>
+						<name>p_Result_24_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6641,7 +6641,7 @@
 					<Obj>
 						<type>0</type>
 						<id>147</id>
-						<name>icmp_ln879_93</name>
+						<name>icmp_ln879_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6690,7 +6690,7 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>icmp_ln768_93</name>
+						<name>icmp_ln768_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6739,7 +6739,7 @@
 					<Obj>
 						<type>0</type>
 						<id>149</id>
-						<name>select_ln777_93</name>
+						<name>select_ln777_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6789,7 +6789,7 @@
 					<Obj>
 						<type>0</type>
 						<id>150</id>
-						<name>select_ln340_4</name>
+						<name>select_ln340_5</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6839,7 +6839,7 @@
 					<Obj>
 						<type>0</type>
 						<id>151</id>
-						<name>select_ln1494_93</name>
+						<name>select_ln1494_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -6862,7 +6862,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[4].V</originalName>
+						<originalName>res[5].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -6889,7 +6889,7 @@
 					<Obj>
 						<type>0</type>
 						<id>152</id>
-						<name>icmp_ln1494_5</name>
+						<name>icmp_ln1494_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -6938,7 +6938,7 @@
 					<Obj>
 						<type>0</type>
 						<id>153</id>
-						<name>trunc_ln708_91</name>
+						<name>trunc_ln708_85</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -6989,7 +6989,7 @@
 					<Obj>
 						<type>0</type>
 						<id>154</id>
-						<name>tmp_396</name>
+						<name>tmp_372</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7039,7 +7039,7 @@
 					<Obj>
 						<type>0</type>
 						<id>155</id>
-						<name>trunc_ln718_94</name>
+						<name>trunc_ln718_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7087,7 +7087,7 @@
 					<Obj>
 						<type>0</type>
 						<id>156</id>
-						<name>icmp_ln718_94</name>
+						<name>icmp_ln718_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7136,7 +7136,7 @@
 					<Obj>
 						<type>0</type>
 						<id>157</id>
-						<name>tmp_397</name>
+						<name>tmp_373</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7186,7 +7186,7 @@
 					<Obj>
 						<type>0</type>
 						<id>158</id>
-						<name>or_ln412_94</name>
+						<name>or_ln412_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7235,7 +7235,7 @@
 					<Obj>
 						<type>0</type>
 						<id>159</id>
-						<name>tmp_398</name>
+						<name>tmp_374</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7285,7 +7285,7 @@
 					<Obj>
 						<type>0</type>
 						<id>160</id>
-						<name>and_ln415_5</name>
+						<name>and_ln415_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7334,7 +7334,7 @@
 					<Obj>
 						<type>0</type>
 						<id>161</id>
-						<name>zext_ln415_94</name>
+						<name>zext_ln415_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7382,7 +7382,7 @@
 					<Obj>
 						<type>0</type>
 						<id>162</id>
-						<name>add_ln415_94</name>
+						<name>add_ln415_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7431,7 +7431,7 @@
 					<Obj>
 						<type>0</type>
 						<id>163</id>
-						<name>tmp_399</name>
+						<name>tmp_375</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7481,7 +7481,7 @@
 					<Obj>
 						<type>0</type>
 						<id>164</id>
-						<name>xor_ln416_94</name>
+						<name>xor_ln416_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7530,7 +7530,7 @@
 					<Obj>
 						<type>0</type>
 						<id>165</id>
-						<name>and_ln416_94</name>
+						<name>and_ln416_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7579,7 +7579,7 @@
 					<Obj>
 						<type>0</type>
 						<id>166</id>
-						<name>p_Result_24_5</name>
+						<name>p_Result_24_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7630,7 +7630,7 @@
 					<Obj>
 						<type>0</type>
 						<id>167</id>
-						<name>icmp_ln879_94</name>
+						<name>icmp_ln879_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7679,7 +7679,7 @@
 					<Obj>
 						<type>0</type>
 						<id>168</id>
-						<name>icmp_ln768_94</name>
+						<name>icmp_ln768_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7728,7 +7728,7 @@
 					<Obj>
 						<type>0</type>
 						<id>169</id>
-						<name>select_ln777_94</name>
+						<name>select_ln777_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7778,7 +7778,7 @@
 					<Obj>
 						<type>0</type>
 						<id>170</id>
-						<name>select_ln340_5</name>
+						<name>select_ln340_6</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7828,7 +7828,7 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>select_ln1494_94</name>
+						<name>select_ln1494_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -7851,7 +7851,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[5].V</originalName>
+						<originalName>res[6].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -7878,7 +7878,7 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>icmp_ln1494_6</name>
+						<name>icmp_ln1494_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -7927,7 +7927,7 @@
 					<Obj>
 						<type>0</type>
 						<id>173</id>
-						<name>trunc_ln708_92</name>
+						<name>trunc_ln708_86</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -7978,7 +7978,7 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>tmp_400</name>
+						<name>tmp_376</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8028,7 +8028,7 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>trunc_ln718_95</name>
+						<name>trunc_ln718_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8076,7 +8076,7 @@
 					<Obj>
 						<type>0</type>
 						<id>176</id>
-						<name>icmp_ln718_95</name>
+						<name>icmp_ln718_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8125,7 +8125,7 @@
 					<Obj>
 						<type>0</type>
 						<id>177</id>
-						<name>tmp_401</name>
+						<name>tmp_377</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8175,7 +8175,7 @@
 					<Obj>
 						<type>0</type>
 						<id>178</id>
-						<name>or_ln412_95</name>
+						<name>or_ln412_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8224,7 +8224,7 @@
 					<Obj>
 						<type>0</type>
 						<id>179</id>
-						<name>tmp_402</name>
+						<name>tmp_378</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8274,7 +8274,7 @@
 					<Obj>
 						<type>0</type>
 						<id>180</id>
-						<name>and_ln415_6</name>
+						<name>and_ln415_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8323,7 +8323,7 @@
 					<Obj>
 						<type>0</type>
 						<id>181</id>
-						<name>zext_ln415_95</name>
+						<name>zext_ln415_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8371,7 +8371,7 @@
 					<Obj>
 						<type>0</type>
 						<id>182</id>
-						<name>add_ln415_95</name>
+						<name>add_ln415_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8420,7 +8420,7 @@
 					<Obj>
 						<type>0</type>
 						<id>183</id>
-						<name>tmp_403</name>
+						<name>tmp_379</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8470,7 +8470,7 @@
 					<Obj>
 						<type>0</type>
 						<id>184</id>
-						<name>xor_ln416_95</name>
+						<name>xor_ln416_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8519,7 +8519,7 @@
 					<Obj>
 						<type>0</type>
 						<id>185</id>
-						<name>and_ln416_95</name>
+						<name>and_ln416_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8568,7 +8568,7 @@
 					<Obj>
 						<type>0</type>
 						<id>186</id>
-						<name>p_Result_24_6</name>
+						<name>p_Result_24_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8619,7 +8619,7 @@
 					<Obj>
 						<type>0</type>
 						<id>187</id>
-						<name>icmp_ln879_95</name>
+						<name>icmp_ln879_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8668,7 +8668,7 @@
 					<Obj>
 						<type>0</type>
 						<id>188</id>
-						<name>icmp_ln768_95</name>
+						<name>icmp_ln768_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8717,7 +8717,7 @@
 					<Obj>
 						<type>0</type>
 						<id>189</id>
-						<name>select_ln777_95</name>
+						<name>select_ln777_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8767,7 +8767,7 @@
 					<Obj>
 						<type>0</type>
 						<id>190</id>
-						<name>select_ln340_6</name>
+						<name>select_ln340_7</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8817,7 +8817,7 @@
 					<Obj>
 						<type>0</type>
 						<id>191</id>
-						<name>select_ln1494_95</name>
+						<name>select_ln1494_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -8840,7 +8840,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[6].V</originalName>
+						<originalName>res[7].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -8916,7 +8916,7 @@
 					<Obj>
 						<type>0</type>
 						<id>193</id>
-						<name>trunc_ln708_93</name>
+						<name>trunc_ln708_87</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -8967,7 +8967,7 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>tmp_404</name>
+						<name>tmp_380</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9017,7 +9017,7 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>trunc_ln718_96</name>
+						<name>trunc_ln718_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9065,7 +9065,7 @@
 					<Obj>
 						<type>0</type>
 						<id>196</id>
-						<name>icmp_ln718_96</name>
+						<name>icmp_ln718_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9114,7 +9114,7 @@
 					<Obj>
 						<type>0</type>
 						<id>197</id>
-						<name>tmp_405</name>
+						<name>tmp_381</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9164,7 +9164,7 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>or_ln412_96</name>
+						<name>or_ln412_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9213,7 +9213,7 @@
 					<Obj>
 						<type>0</type>
 						<id>199</id>
-						<name>tmp_406</name>
+						<name>tmp_382</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9312,7 +9312,7 @@
 					<Obj>
 						<type>0</type>
 						<id>201</id>
-						<name>zext_ln415_96</name>
+						<name>zext_ln415_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9360,7 +9360,7 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>add_ln415_96</name>
+						<name>add_ln415_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9409,7 +9409,7 @@
 					<Obj>
 						<type>0</type>
 						<id>203</id>
-						<name>tmp_407</name>
+						<name>tmp_383</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9459,7 +9459,7 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>xor_ln416_96</name>
+						<name>xor_ln416_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9508,7 +9508,7 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>and_ln416_96</name>
+						<name>and_ln416_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9608,7 +9608,7 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>icmp_ln879_96</name>
+						<name>icmp_ln879_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9657,7 +9657,7 @@
 					<Obj>
 						<type>0</type>
 						<id>208</id>
-						<name>icmp_ln768_96</name>
+						<name>icmp_ln768_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9706,7 +9706,7 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name>select_ln777_96</name>
+						<name>select_ln777_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9806,7 +9806,7 @@
 					<Obj>
 						<type>0</type>
 						<id>211</id>
-						<name>select_ln1494_96</name>
+						<name>select_ln1494_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -9905,7 +9905,7 @@
 					<Obj>
 						<type>0</type>
 						<id>213</id>
-						<name>trunc_ln708_94</name>
+						<name>trunc_ln708_88</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -9956,7 +9956,7 @@
 					<Obj>
 						<type>0</type>
 						<id>214</id>
-						<name>tmp_408</name>
+						<name>tmp_384</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10006,7 +10006,7 @@
 					<Obj>
 						<type>0</type>
 						<id>215</id>
-						<name>trunc_ln718_97</name>
+						<name>trunc_ln718_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10054,7 +10054,7 @@
 					<Obj>
 						<type>0</type>
 						<id>216</id>
-						<name>icmp_ln718_97</name>
+						<name>icmp_ln718_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10103,7 +10103,7 @@
 					<Obj>
 						<type>0</type>
 						<id>217</id>
-						<name>tmp_409</name>
+						<name>tmp_385</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10153,7 +10153,7 @@
 					<Obj>
 						<type>0</type>
 						<id>218</id>
-						<name>or_ln412_97</name>
+						<name>or_ln412_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10202,7 +10202,7 @@
 					<Obj>
 						<type>0</type>
 						<id>219</id>
-						<name>tmp_410</name>
+						<name>tmp_386</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10301,7 +10301,7 @@
 					<Obj>
 						<type>0</type>
 						<id>221</id>
-						<name>zext_ln415_97</name>
+						<name>zext_ln415_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10349,7 +10349,7 @@
 					<Obj>
 						<type>0</type>
 						<id>222</id>
-						<name>add_ln415_97</name>
+						<name>add_ln415_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10398,7 +10398,7 @@
 					<Obj>
 						<type>0</type>
 						<id>223</id>
-						<name>tmp_411</name>
+						<name>tmp_387</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10448,7 +10448,7 @@
 					<Obj>
 						<type>0</type>
 						<id>224</id>
-						<name>xor_ln416_97</name>
+						<name>xor_ln416_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10497,7 +10497,7 @@
 					<Obj>
 						<type>0</type>
 						<id>225</id>
-						<name>and_ln416_97</name>
+						<name>and_ln416_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10597,7 +10597,7 @@
 					<Obj>
 						<type>0</type>
 						<id>227</id>
-						<name>icmp_ln879_97</name>
+						<name>icmp_ln879_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10646,7 +10646,7 @@
 					<Obj>
 						<type>0</type>
 						<id>228</id>
-						<name>icmp_ln768_97</name>
+						<name>icmp_ln768_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10695,7 +10695,7 @@
 					<Obj>
 						<type>0</type>
 						<id>229</id>
-						<name>select_ln777_97</name>
+						<name>select_ln777_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10795,7 +10795,7 @@
 					<Obj>
 						<type>0</type>
 						<id>231</id>
-						<name>select_ln1494_97</name>
+						<name>select_ln1494_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -10894,7 +10894,7 @@
 					<Obj>
 						<type>0</type>
 						<id>233</id>
-						<name>trunc_ln708_95</name>
+						<name>trunc_ln708_89</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10945,7 +10945,7 @@
 					<Obj>
 						<type>0</type>
 						<id>234</id>
-						<name>tmp_412</name>
+						<name>tmp_388</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -10995,7 +10995,7 @@
 					<Obj>
 						<type>0</type>
 						<id>235</id>
-						<name>trunc_ln718_98</name>
+						<name>trunc_ln718_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11043,7 +11043,7 @@
 					<Obj>
 						<type>0</type>
 						<id>236</id>
-						<name>icmp_ln718_98</name>
+						<name>icmp_ln718_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11092,7 +11092,7 @@
 					<Obj>
 						<type>0</type>
 						<id>237</id>
-						<name>tmp_413</name>
+						<name>tmp_389</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11142,7 +11142,7 @@
 					<Obj>
 						<type>0</type>
 						<id>238</id>
-						<name>or_ln412_98</name>
+						<name>or_ln412_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11191,7 +11191,7 @@
 					<Obj>
 						<type>0</type>
 						<id>239</id>
-						<name>tmp_414</name>
+						<name>tmp_390</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11290,7 +11290,7 @@
 					<Obj>
 						<type>0</type>
 						<id>241</id>
-						<name>zext_ln415_98</name>
+						<name>zext_ln415_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11338,7 +11338,7 @@
 					<Obj>
 						<type>0</type>
 						<id>242</id>
-						<name>add_ln415_98</name>
+						<name>add_ln415_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11387,7 +11387,7 @@
 					<Obj>
 						<type>0</type>
 						<id>243</id>
-						<name>tmp_415</name>
+						<name>tmp_391</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11437,7 +11437,7 @@
 					<Obj>
 						<type>0</type>
 						<id>244</id>
-						<name>xor_ln416_98</name>
+						<name>xor_ln416_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11486,7 +11486,7 @@
 					<Obj>
 						<type>0</type>
 						<id>245</id>
-						<name>and_ln416_98</name>
+						<name>and_ln416_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11586,7 +11586,7 @@
 					<Obj>
 						<type>0</type>
 						<id>247</id>
-						<name>icmp_ln879_98</name>
+						<name>icmp_ln879_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11635,7 +11635,7 @@
 					<Obj>
 						<type>0</type>
 						<id>248</id>
-						<name>icmp_ln768_98</name>
+						<name>icmp_ln768_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11684,7 +11684,7 @@
 					<Obj>
 						<type>0</type>
 						<id>249</id>
-						<name>select_ln777_98</name>
+						<name>select_ln777_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11784,7 +11784,7 @@
 					<Obj>
 						<type>0</type>
 						<id>251</id>
-						<name>select_ln1494_98</name>
+						<name>select_ln1494_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -11834,7 +11834,7 @@
 					<Obj>
 						<type>0</type>
 						<id>252</id>
-						<name>icmp_ln1494_11</name>
+						<name>icmp_ln1494_12</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -11883,7 +11883,7 @@
 					<Obj>
 						<type>0</type>
 						<id>253</id>
-						<name>trunc_ln708_96</name>
+						<name>trunc_ln708_90</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11934,7 +11934,7 @@
 					<Obj>
 						<type>0</type>
 						<id>254</id>
-						<name>tmp_416</name>
+						<name>tmp_392</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -11984,7 +11984,7 @@
 					<Obj>
 						<type>0</type>
 						<id>255</id>
-						<name>trunc_ln718_99</name>
+						<name>trunc_ln718_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12032,7 +12032,7 @@
 					<Obj>
 						<type>0</type>
 						<id>256</id>
-						<name>icmp_ln718_99</name>
+						<name>icmp_ln718_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12081,7 +12081,7 @@
 					<Obj>
 						<type>0</type>
 						<id>257</id>
-						<name>tmp_417</name>
+						<name>tmp_393</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12131,7 +12131,7 @@
 					<Obj>
 						<type>0</type>
 						<id>258</id>
-						<name>or_ln412_99</name>
+						<name>or_ln412_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12180,7 +12180,7 @@
 					<Obj>
 						<type>0</type>
 						<id>259</id>
-						<name>tmp_418</name>
+						<name>tmp_394</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12230,7 +12230,7 @@
 					<Obj>
 						<type>0</type>
 						<id>260</id>
-						<name>and_ln415_11</name>
+						<name>and_ln415_12</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12279,7 +12279,7 @@
 					<Obj>
 						<type>0</type>
 						<id>261</id>
-						<name>zext_ln415_99</name>
+						<name>zext_ln415_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12327,7 +12327,7 @@
 					<Obj>
 						<type>0</type>
 						<id>262</id>
-						<name>add_ln415_99</name>
+						<name>add_ln415_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12376,7 +12376,7 @@
 					<Obj>
 						<type>0</type>
 						<id>263</id>
-						<name>tmp_419</name>
+						<name>tmp_395</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12426,7 +12426,7 @@
 					<Obj>
 						<type>0</type>
 						<id>264</id>
-						<name>xor_ln416_99</name>
+						<name>xor_ln416_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12475,7 +12475,7 @@
 					<Obj>
 						<type>0</type>
 						<id>265</id>
-						<name>and_ln416_99</name>
+						<name>and_ln416_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12524,7 +12524,7 @@
 					<Obj>
 						<type>0</type>
 						<id>266</id>
-						<name>p_Result_24_7</name>
+						<name>p_Result_24_1</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12575,7 +12575,7 @@
 					<Obj>
 						<type>0</type>
 						<id>267</id>
-						<name>icmp_ln879_99</name>
+						<name>icmp_ln879_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12624,7 +12624,7 @@
 					<Obj>
 						<type>0</type>
 						<id>268</id>
-						<name>icmp_ln768_99</name>
+						<name>icmp_ln768_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12673,7 +12673,7 @@
 					<Obj>
 						<type>0</type>
 						<id>269</id>
-						<name>select_ln777_99</name>
+						<name>select_ln777_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12723,7 +12723,7 @@
 					<Obj>
 						<type>0</type>
 						<id>270</id>
-						<name>select_ln340_11</name>
+						<name>select_ln340_12</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12773,7 +12773,7 @@
 					<Obj>
 						<type>0</type>
 						<id>271</id>
-						<name>select_ln1494_99</name>
+						<name>select_ln1494_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -12796,7 +12796,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[11].V</originalName>
+						<originalName>res[12].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -12823,7 +12823,7 @@
 					<Obj>
 						<type>0</type>
 						<id>272</id>
-						<name>icmp_ln1494_12</name>
+						<name>icmp_ln1494_13</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -12872,7 +12872,7 @@
 					<Obj>
 						<type>0</type>
 						<id>273</id>
-						<name>trunc_ln708_97</name>
+						<name>trunc_ln708_91</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12923,7 +12923,7 @@
 					<Obj>
 						<type>0</type>
 						<id>274</id>
-						<name>tmp_420</name>
+						<name>tmp_396</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -12973,7 +12973,7 @@
 					<Obj>
 						<type>0</type>
 						<id>275</id>
-						<name>trunc_ln718_100</name>
+						<name>trunc_ln718_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13021,7 +13021,7 @@
 					<Obj>
 						<type>0</type>
 						<id>276</id>
-						<name>icmp_ln718_100</name>
+						<name>icmp_ln718_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13070,7 +13070,7 @@
 					<Obj>
 						<type>0</type>
 						<id>277</id>
-						<name>tmp_421</name>
+						<name>tmp_397</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13120,7 +13120,7 @@
 					<Obj>
 						<type>0</type>
 						<id>278</id>
-						<name>or_ln412_100</name>
+						<name>or_ln412_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13169,7 +13169,7 @@
 					<Obj>
 						<type>0</type>
 						<id>279</id>
-						<name>tmp_422</name>
+						<name>tmp_398</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13219,7 +13219,7 @@
 					<Obj>
 						<type>0</type>
 						<id>280</id>
-						<name>and_ln415_12</name>
+						<name>and_ln415_13</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13268,7 +13268,7 @@
 					<Obj>
 						<type>0</type>
 						<id>281</id>
-						<name>zext_ln415_100</name>
+						<name>zext_ln415_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13316,7 +13316,7 @@
 					<Obj>
 						<type>0</type>
 						<id>282</id>
-						<name>add_ln415_100</name>
+						<name>add_ln415_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13365,7 +13365,7 @@
 					<Obj>
 						<type>0</type>
 						<id>283</id>
-						<name>tmp_423</name>
+						<name>tmp_399</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13415,7 +13415,7 @@
 					<Obj>
 						<type>0</type>
 						<id>284</id>
-						<name>xor_ln416_100</name>
+						<name>xor_ln416_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13464,7 +13464,7 @@
 					<Obj>
 						<type>0</type>
 						<id>285</id>
-						<name>and_ln416_100</name>
+						<name>and_ln416_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13564,7 +13564,7 @@
 					<Obj>
 						<type>0</type>
 						<id>287</id>
-						<name>icmp_ln879_100</name>
+						<name>icmp_ln879_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13613,7 +13613,7 @@
 					<Obj>
 						<type>0</type>
 						<id>288</id>
-						<name>icmp_ln768_100</name>
+						<name>icmp_ln768_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13662,7 +13662,7 @@
 					<Obj>
 						<type>0</type>
 						<id>289</id>
-						<name>select_ln777_100</name>
+						<name>select_ln777_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13712,7 +13712,7 @@
 					<Obj>
 						<type>0</type>
 						<id>290</id>
-						<name>select_ln340_12</name>
+						<name>select_ln340_13</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13762,7 +13762,7 @@
 					<Obj>
 						<type>0</type>
 						<id>291</id>
-						<name>select_ln1494_100</name>
+						<name>select_ln1494_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -13785,7 +13785,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[12].V</originalName>
+						<originalName>res[13].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -13812,7 +13812,7 @@
 					<Obj>
 						<type>0</type>
 						<id>292</id>
-						<name>icmp_ln1494_13</name>
+						<name>icmp_ln1494_15</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -13861,7 +13861,7 @@
 					<Obj>
 						<type>0</type>
 						<id>293</id>
-						<name>trunc_ln708_98</name>
+						<name>trunc_ln708_92</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13912,7 +13912,7 @@
 					<Obj>
 						<type>0</type>
 						<id>294</id>
-						<name>tmp_424</name>
+						<name>tmp_400</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -13962,7 +13962,7 @@
 					<Obj>
 						<type>0</type>
 						<id>295</id>
-						<name>trunc_ln718_101</name>
+						<name>trunc_ln718_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14010,7 +14010,7 @@
 					<Obj>
 						<type>0</type>
 						<id>296</id>
-						<name>icmp_ln718_101</name>
+						<name>icmp_ln718_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14059,7 +14059,7 @@
 					<Obj>
 						<type>0</type>
 						<id>297</id>
-						<name>tmp_425</name>
+						<name>tmp_401</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14109,7 +14109,7 @@
 					<Obj>
 						<type>0</type>
 						<id>298</id>
-						<name>or_ln412_101</name>
+						<name>or_ln412_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14158,7 +14158,7 @@
 					<Obj>
 						<type>0</type>
 						<id>299</id>
-						<name>tmp_426</name>
+						<name>tmp_402</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14208,7 +14208,7 @@
 					<Obj>
 						<type>0</type>
 						<id>300</id>
-						<name>and_ln415_13</name>
+						<name>and_ln415_15</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14257,7 +14257,7 @@
 					<Obj>
 						<type>0</type>
 						<id>301</id>
-						<name>zext_ln415_101</name>
+						<name>zext_ln415_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14305,7 +14305,7 @@
 					<Obj>
 						<type>0</type>
 						<id>302</id>
-						<name>add_ln415_101</name>
+						<name>add_ln415_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14354,7 +14354,7 @@
 					<Obj>
 						<type>0</type>
 						<id>303</id>
-						<name>tmp_427</name>
+						<name>tmp_403</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14404,7 +14404,7 @@
 					<Obj>
 						<type>0</type>
 						<id>304</id>
-						<name>xor_ln416_101</name>
+						<name>xor_ln416_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14453,7 +14453,7 @@
 					<Obj>
 						<type>0</type>
 						<id>305</id>
-						<name>and_ln416_101</name>
+						<name>and_ln416_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14553,7 +14553,7 @@
 					<Obj>
 						<type>0</type>
 						<id>307</id>
-						<name>icmp_ln879_101</name>
+						<name>icmp_ln879_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14602,7 +14602,7 @@
 					<Obj>
 						<type>0</type>
 						<id>308</id>
-						<name>icmp_ln768_101</name>
+						<name>icmp_ln768_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14651,7 +14651,7 @@
 					<Obj>
 						<type>0</type>
 						<id>309</id>
-						<name>select_ln777_101</name>
+						<name>select_ln777_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14701,7 +14701,7 @@
 					<Obj>
 						<type>0</type>
 						<id>310</id>
-						<name>select_ln340_13</name>
+						<name>select_ln340_15</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14751,7 +14751,7 @@
 					<Obj>
 						<type>0</type>
 						<id>311</id>
-						<name>select_ln1494_101</name>
+						<name>select_ln1494_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -14774,7 +14774,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[13].V</originalName>
+						<originalName>res[15].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -14801,7 +14801,7 @@
 					<Obj>
 						<type>0</type>
 						<id>312</id>
-						<name>icmp_ln1494_17</name>
+						<name>icmp_ln1494_16</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -14850,7 +14850,7 @@
 					<Obj>
 						<type>0</type>
 						<id>313</id>
-						<name>trunc_ln708_99</name>
+						<name>trunc_ln708_93</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14901,7 +14901,7 @@
 					<Obj>
 						<type>0</type>
 						<id>314</id>
-						<name>tmp_428</name>
+						<name>tmp_404</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14951,7 +14951,7 @@
 					<Obj>
 						<type>0</type>
 						<id>315</id>
-						<name>trunc_ln718_102</name>
+						<name>trunc_ln718_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -14999,7 +14999,7 @@
 					<Obj>
 						<type>0</type>
 						<id>316</id>
-						<name>icmp_ln718_102</name>
+						<name>icmp_ln718_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15048,7 +15048,7 @@
 					<Obj>
 						<type>0</type>
 						<id>317</id>
-						<name>tmp_429</name>
+						<name>tmp_405</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15098,7 +15098,7 @@
 					<Obj>
 						<type>0</type>
 						<id>318</id>
-						<name>or_ln412_102</name>
+						<name>or_ln412_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15147,7 +15147,7 @@
 					<Obj>
 						<type>0</type>
 						<id>319</id>
-						<name>tmp_430</name>
+						<name>tmp_406</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15197,7 +15197,7 @@
 					<Obj>
 						<type>0</type>
 						<id>320</id>
-						<name>and_ln415_17</name>
+						<name>and_ln415_16</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15246,7 +15246,7 @@
 					<Obj>
 						<type>0</type>
 						<id>321</id>
-						<name>zext_ln415_102</name>
+						<name>zext_ln415_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15294,7 +15294,7 @@
 					<Obj>
 						<type>0</type>
 						<id>322</id>
-						<name>add_ln415_102</name>
+						<name>add_ln415_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15343,7 +15343,7 @@
 					<Obj>
 						<type>0</type>
 						<id>323</id>
-						<name>tmp_431</name>
+						<name>tmp_407</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15393,7 +15393,7 @@
 					<Obj>
 						<type>0</type>
 						<id>324</id>
-						<name>xor_ln416_102</name>
+						<name>xor_ln416_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15442,7 +15442,7 @@
 					<Obj>
 						<type>0</type>
 						<id>325</id>
-						<name>and_ln416_102</name>
+						<name>and_ln416_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15542,7 +15542,7 @@
 					<Obj>
 						<type>0</type>
 						<id>327</id>
-						<name>icmp_ln879_102</name>
+						<name>icmp_ln879_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15591,7 +15591,7 @@
 					<Obj>
 						<type>0</type>
 						<id>328</id>
-						<name>icmp_ln768_102</name>
+						<name>icmp_ln768_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15640,7 +15640,7 @@
 					<Obj>
 						<type>0</type>
 						<id>329</id>
-						<name>select_ln777_102</name>
+						<name>select_ln777_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15690,7 +15690,7 @@
 					<Obj>
 						<type>0</type>
 						<id>330</id>
-						<name>select_ln340_17</name>
+						<name>select_ln340_16</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15740,7 +15740,7 @@
 					<Obj>
 						<type>0</type>
 						<id>331</id>
-						<name>select_ln1494_102</name>
+						<name>select_ln1494_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -15763,7 +15763,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[17].V</originalName>
+						<originalName>res[16].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -15790,7 +15790,7 @@
 					<Obj>
 						<type>0</type>
 						<id>332</id>
-						<name>icmp_ln1494_18</name>
+						<name>icmp_ln1494_17</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -15839,7 +15839,7 @@
 					<Obj>
 						<type>0</type>
 						<id>333</id>
-						<name>trunc_ln708_100</name>
+						<name>trunc_ln708_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15890,7 +15890,7 @@
 					<Obj>
 						<type>0</type>
 						<id>334</id>
-						<name>tmp_432</name>
+						<name>tmp_408</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15940,7 +15940,7 @@
 					<Obj>
 						<type>0</type>
 						<id>335</id>
-						<name>trunc_ln718_103</name>
+						<name>trunc_ln718_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -15988,7 +15988,7 @@
 					<Obj>
 						<type>0</type>
 						<id>336</id>
-						<name>icmp_ln718_103</name>
+						<name>icmp_ln718_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16037,7 +16037,7 @@
 					<Obj>
 						<type>0</type>
 						<id>337</id>
-						<name>tmp_433</name>
+						<name>tmp_409</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16087,7 +16087,7 @@
 					<Obj>
 						<type>0</type>
 						<id>338</id>
-						<name>or_ln412_103</name>
+						<name>or_ln412_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16136,7 +16136,7 @@
 					<Obj>
 						<type>0</type>
 						<id>339</id>
-						<name>tmp_434</name>
+						<name>tmp_410</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16186,7 +16186,7 @@
 					<Obj>
 						<type>0</type>
 						<id>340</id>
-						<name>and_ln415_18</name>
+						<name>and_ln415_17</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16235,7 +16235,7 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>zext_ln415_103</name>
+						<name>zext_ln415_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16283,7 +16283,7 @@
 					<Obj>
 						<type>0</type>
 						<id>342</id>
-						<name>add_ln415_103</name>
+						<name>add_ln415_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16332,7 +16332,7 @@
 					<Obj>
 						<type>0</type>
 						<id>343</id>
-						<name>tmp_435</name>
+						<name>tmp_411</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16382,7 +16382,7 @@
 					<Obj>
 						<type>0</type>
 						<id>344</id>
-						<name>xor_ln416_103</name>
+						<name>xor_ln416_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16431,7 +16431,7 @@
 					<Obj>
 						<type>0</type>
 						<id>345</id>
-						<name>and_ln416_103</name>
+						<name>and_ln416_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16531,7 +16531,7 @@
 					<Obj>
 						<type>0</type>
 						<id>347</id>
-						<name>icmp_ln879_103</name>
+						<name>icmp_ln879_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16580,7 +16580,7 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>icmp_ln768_103</name>
+						<name>icmp_ln768_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16629,7 +16629,7 @@
 					<Obj>
 						<type>0</type>
 						<id>349</id>
-						<name>select_ln777_103</name>
+						<name>select_ln777_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16679,7 +16679,7 @@
 					<Obj>
 						<type>0</type>
 						<id>350</id>
-						<name>select_ln340_18</name>
+						<name>select_ln340_17</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16729,7 +16729,7 @@
 					<Obj>
 						<type>0</type>
 						<id>351</id>
-						<name>select_ln1494_103</name>
+						<name>select_ln1494_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -16752,7 +16752,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[18].V</originalName>
+						<originalName>res[17].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -16779,7 +16779,7 @@
 					<Obj>
 						<type>0</type>
 						<id>352</id>
-						<name>icmp_ln1494_19</name>
+						<name>icmp_ln1494_18</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -16828,7 +16828,7 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>trunc_ln708_101</name>
+						<name>trunc_ln708_95</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16879,7 +16879,7 @@
 					<Obj>
 						<type>0</type>
 						<id>354</id>
-						<name>tmp_436</name>
+						<name>tmp_412</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16929,7 +16929,7 @@
 					<Obj>
 						<type>0</type>
 						<id>355</id>
-						<name>trunc_ln718_104</name>
+						<name>trunc_ln718_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -16977,7 +16977,7 @@
 					<Obj>
 						<type>0</type>
 						<id>356</id>
-						<name>icmp_ln718_104</name>
+						<name>icmp_ln718_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17026,7 +17026,7 @@
 					<Obj>
 						<type>0</type>
 						<id>357</id>
-						<name>tmp_437</name>
+						<name>tmp_413</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17076,7 +17076,7 @@
 					<Obj>
 						<type>0</type>
 						<id>358</id>
-						<name>or_ln412_104</name>
+						<name>or_ln412_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17125,7 +17125,7 @@
 					<Obj>
 						<type>0</type>
 						<id>359</id>
-						<name>tmp_438</name>
+						<name>tmp_414</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17175,7 +17175,7 @@
 					<Obj>
 						<type>0</type>
 						<id>360</id>
-						<name>and_ln415_19</name>
+						<name>and_ln415_18</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17224,7 +17224,7 @@
 					<Obj>
 						<type>0</type>
 						<id>361</id>
-						<name>zext_ln415_104</name>
+						<name>zext_ln415_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17272,7 +17272,7 @@
 					<Obj>
 						<type>0</type>
 						<id>362</id>
-						<name>add_ln415_104</name>
+						<name>add_ln415_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17321,7 +17321,7 @@
 					<Obj>
 						<type>0</type>
 						<id>363</id>
-						<name>tmp_439</name>
+						<name>tmp_415</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17371,7 +17371,7 @@
 					<Obj>
 						<type>0</type>
 						<id>364</id>
-						<name>xor_ln416_104</name>
+						<name>xor_ln416_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17420,7 +17420,7 @@
 					<Obj>
 						<type>0</type>
 						<id>365</id>
-						<name>and_ln416_104</name>
+						<name>and_ln416_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17520,7 +17520,7 @@
 					<Obj>
 						<type>0</type>
 						<id>367</id>
-						<name>icmp_ln879_104</name>
+						<name>icmp_ln879_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17569,7 +17569,7 @@
 					<Obj>
 						<type>0</type>
 						<id>368</id>
-						<name>icmp_ln768_104</name>
+						<name>icmp_ln768_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17618,7 +17618,7 @@
 					<Obj>
 						<type>0</type>
 						<id>369</id>
-						<name>select_ln777_104</name>
+						<name>select_ln777_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17668,7 +17668,7 @@
 					<Obj>
 						<type>0</type>
 						<id>370</id>
-						<name>select_ln340_19</name>
+						<name>select_ln340_18</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17718,7 +17718,7 @@
 					<Obj>
 						<type>0</type>
 						<id>371</id>
-						<name>select_ln1494_104</name>
+						<name>select_ln1494_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -17741,7 +17741,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[19].V</originalName>
+						<originalName>res[18].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -17768,7 +17768,7 @@
 					<Obj>
 						<type>0</type>
 						<id>372</id>
-						<name>icmp_ln1494_20</name>
+						<name>icmp_ln1494_19</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -17817,7 +17817,7 @@
 					<Obj>
 						<type>0</type>
 						<id>373</id>
-						<name>trunc_ln708_102</name>
+						<name>trunc_ln708_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17868,7 +17868,7 @@
 					<Obj>
 						<type>0</type>
 						<id>374</id>
-						<name>tmp_440</name>
+						<name>tmp_416</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17918,7 +17918,7 @@
 					<Obj>
 						<type>0</type>
 						<id>375</id>
-						<name>trunc_ln718_105</name>
+						<name>trunc_ln718_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -17966,7 +17966,7 @@
 					<Obj>
 						<type>0</type>
 						<id>376</id>
-						<name>icmp_ln718_105</name>
+						<name>icmp_ln718_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18015,7 +18015,7 @@
 					<Obj>
 						<type>0</type>
 						<id>377</id>
-						<name>tmp_441</name>
+						<name>tmp_417</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18065,7 +18065,7 @@
 					<Obj>
 						<type>0</type>
 						<id>378</id>
-						<name>or_ln412_105</name>
+						<name>or_ln412_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18114,7 +18114,7 @@
 					<Obj>
 						<type>0</type>
 						<id>379</id>
-						<name>tmp_442</name>
+						<name>tmp_418</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18164,7 +18164,7 @@
 					<Obj>
 						<type>0</type>
 						<id>380</id>
-						<name>and_ln415_20</name>
+						<name>and_ln415_19</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18213,7 +18213,7 @@
 					<Obj>
 						<type>0</type>
 						<id>381</id>
-						<name>zext_ln415_105</name>
+						<name>zext_ln415_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18261,7 +18261,7 @@
 					<Obj>
 						<type>0</type>
 						<id>382</id>
-						<name>add_ln415_105</name>
+						<name>add_ln415_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18310,7 +18310,7 @@
 					<Obj>
 						<type>0</type>
 						<id>383</id>
-						<name>tmp_443</name>
+						<name>tmp_419</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18360,7 +18360,7 @@
 					<Obj>
 						<type>0</type>
 						<id>384</id>
-						<name>xor_ln416_105</name>
+						<name>xor_ln416_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18409,7 +18409,7 @@
 					<Obj>
 						<type>0</type>
 						<id>385</id>
-						<name>and_ln416_105</name>
+						<name>and_ln416_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18509,7 +18509,7 @@
 					<Obj>
 						<type>0</type>
 						<id>387</id>
-						<name>icmp_ln879_105</name>
+						<name>icmp_ln879_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18558,7 +18558,7 @@
 					<Obj>
 						<type>0</type>
 						<id>388</id>
-						<name>icmp_ln768_105</name>
+						<name>icmp_ln768_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18607,7 +18607,7 @@
 					<Obj>
 						<type>0</type>
 						<id>389</id>
-						<name>select_ln777_105</name>
+						<name>select_ln777_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18657,7 +18657,7 @@
 					<Obj>
 						<type>0</type>
 						<id>390</id>
-						<name>select_ln340_20</name>
+						<name>select_ln340_19</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18707,7 +18707,7 @@
 					<Obj>
 						<type>0</type>
 						<id>391</id>
-						<name>select_ln1494_105</name>
+						<name>select_ln1494_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -18730,7 +18730,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[20].V</originalName>
+						<originalName>res[19].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -18757,7 +18757,7 @@
 					<Obj>
 						<type>0</type>
 						<id>392</id>
-						<name>icmp_ln1494_21</name>
+						<name>icmp_ln1494_20</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -18806,7 +18806,7 @@
 					<Obj>
 						<type>0</type>
 						<id>393</id>
-						<name>trunc_ln708_103</name>
+						<name>trunc_ln708_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18857,7 +18857,7 @@
 					<Obj>
 						<type>0</type>
 						<id>394</id>
-						<name>tmp_444</name>
+						<name>tmp_420</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18907,7 +18907,7 @@
 					<Obj>
 						<type>0</type>
 						<id>395</id>
-						<name>trunc_ln718_106</name>
+						<name>trunc_ln718_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -18955,7 +18955,7 @@
 					<Obj>
 						<type>0</type>
 						<id>396</id>
-						<name>icmp_ln718_106</name>
+						<name>icmp_ln718_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19004,7 +19004,7 @@
 					<Obj>
 						<type>0</type>
 						<id>397</id>
-						<name>tmp_445</name>
+						<name>tmp_421</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19054,7 +19054,7 @@
 					<Obj>
 						<type>0</type>
 						<id>398</id>
-						<name>or_ln412_106</name>
+						<name>or_ln412_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19103,7 +19103,7 @@
 					<Obj>
 						<type>0</type>
 						<id>399</id>
-						<name>tmp_446</name>
+						<name>tmp_422</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19153,7 +19153,7 @@
 					<Obj>
 						<type>0</type>
 						<id>400</id>
-						<name>and_ln415_21</name>
+						<name>and_ln415_20</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19202,7 +19202,7 @@
 					<Obj>
 						<type>0</type>
 						<id>401</id>
-						<name>zext_ln415_106</name>
+						<name>zext_ln415_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19250,7 +19250,7 @@
 					<Obj>
 						<type>0</type>
 						<id>402</id>
-						<name>add_ln415_106</name>
+						<name>add_ln415_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19299,7 +19299,7 @@
 					<Obj>
 						<type>0</type>
 						<id>403</id>
-						<name>tmp_447</name>
+						<name>tmp_423</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19349,7 +19349,7 @@
 					<Obj>
 						<type>0</type>
 						<id>404</id>
-						<name>xor_ln416_106</name>
+						<name>xor_ln416_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19398,7 +19398,7 @@
 					<Obj>
 						<type>0</type>
 						<id>405</id>
-						<name>and_ln416_106</name>
+						<name>and_ln416_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19498,7 +19498,7 @@
 					<Obj>
 						<type>0</type>
 						<id>407</id>
-						<name>icmp_ln879_106</name>
+						<name>icmp_ln879_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19547,7 +19547,7 @@
 					<Obj>
 						<type>0</type>
 						<id>408</id>
-						<name>icmp_ln768_106</name>
+						<name>icmp_ln768_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19596,7 +19596,7 @@
 					<Obj>
 						<type>0</type>
 						<id>409</id>
-						<name>select_ln777_106</name>
+						<name>select_ln777_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19646,7 +19646,7 @@
 					<Obj>
 						<type>0</type>
 						<id>410</id>
-						<name>select_ln340_21</name>
+						<name>select_ln340_20</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19696,7 +19696,7 @@
 					<Obj>
 						<type>0</type>
 						<id>411</id>
-						<name>select_ln1494_106</name>
+						<name>select_ln1494_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -19719,7 +19719,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[21].V</originalName>
+						<originalName>res[20].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -19746,7 +19746,7 @@
 					<Obj>
 						<type>0</type>
 						<id>412</id>
-						<name>icmp_ln1494_22</name>
+						<name>icmp_ln1494_21</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -19795,7 +19795,7 @@
 					<Obj>
 						<type>0</type>
 						<id>413</id>
-						<name>trunc_ln708_104</name>
+						<name>trunc_ln708_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19846,7 +19846,7 @@
 					<Obj>
 						<type>0</type>
 						<id>414</id>
-						<name>tmp_448</name>
+						<name>tmp_424</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19896,7 +19896,7 @@
 					<Obj>
 						<type>0</type>
 						<id>415</id>
-						<name>trunc_ln718_107</name>
+						<name>trunc_ln718_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19944,7 +19944,7 @@
 					<Obj>
 						<type>0</type>
 						<id>416</id>
-						<name>icmp_ln718_107</name>
+						<name>icmp_ln718_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -19993,7 +19993,7 @@
 					<Obj>
 						<type>0</type>
 						<id>417</id>
-						<name>tmp_449</name>
+						<name>tmp_425</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20043,7 +20043,7 @@
 					<Obj>
 						<type>0</type>
 						<id>418</id>
-						<name>or_ln412_107</name>
+						<name>or_ln412_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20092,7 +20092,7 @@
 					<Obj>
 						<type>0</type>
 						<id>419</id>
-						<name>tmp_450</name>
+						<name>tmp_426</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20142,7 +20142,7 @@
 					<Obj>
 						<type>0</type>
 						<id>420</id>
-						<name>and_ln415_22</name>
+						<name>and_ln415_21</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20191,7 +20191,7 @@
 					<Obj>
 						<type>0</type>
 						<id>421</id>
-						<name>zext_ln415_107</name>
+						<name>zext_ln415_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20239,7 +20239,7 @@
 					<Obj>
 						<type>0</type>
 						<id>422</id>
-						<name>add_ln415_107</name>
+						<name>add_ln415_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20288,7 +20288,7 @@
 					<Obj>
 						<type>0</type>
 						<id>423</id>
-						<name>tmp_451</name>
+						<name>tmp_427</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20338,7 +20338,7 @@
 					<Obj>
 						<type>0</type>
 						<id>424</id>
-						<name>xor_ln416_107</name>
+						<name>xor_ln416_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20387,7 +20387,7 @@
 					<Obj>
 						<type>0</type>
 						<id>425</id>
-						<name>and_ln416_107</name>
+						<name>and_ln416_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20487,7 +20487,7 @@
 					<Obj>
 						<type>0</type>
 						<id>427</id>
-						<name>icmp_ln879_107</name>
+						<name>icmp_ln879_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20536,7 +20536,7 @@
 					<Obj>
 						<type>0</type>
 						<id>428</id>
-						<name>icmp_ln768_107</name>
+						<name>icmp_ln768_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20585,7 +20585,7 @@
 					<Obj>
 						<type>0</type>
 						<id>429</id>
-						<name>select_ln777_107</name>
+						<name>select_ln777_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20635,7 +20635,7 @@
 					<Obj>
 						<type>0</type>
 						<id>430</id>
-						<name>select_ln340_22</name>
+						<name>select_ln340_21</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20685,7 +20685,7 @@
 					<Obj>
 						<type>0</type>
 						<id>431</id>
-						<name>select_ln1494_107</name>
+						<name>select_ln1494_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -20708,7 +20708,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[22].V</originalName>
+						<originalName>res[21].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -20735,7 +20735,7 @@
 					<Obj>
 						<type>0</type>
 						<id>432</id>
-						<name>icmp_ln1494_24</name>
+						<name>icmp_ln1494_22</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -20784,7 +20784,7 @@
 					<Obj>
 						<type>0</type>
 						<id>433</id>
-						<name>trunc_ln708_105</name>
+						<name>trunc_ln708_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20835,7 +20835,7 @@
 					<Obj>
 						<type>0</type>
 						<id>434</id>
-						<name>tmp_452</name>
+						<name>tmp_428</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20885,7 +20885,7 @@
 					<Obj>
 						<type>0</type>
 						<id>435</id>
-						<name>trunc_ln718_108</name>
+						<name>trunc_ln718_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20933,7 +20933,7 @@
 					<Obj>
 						<type>0</type>
 						<id>436</id>
-						<name>icmp_ln718_108</name>
+						<name>icmp_ln718_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -20982,7 +20982,7 @@
 					<Obj>
 						<type>0</type>
 						<id>437</id>
-						<name>tmp_453</name>
+						<name>tmp_429</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21032,7 +21032,7 @@
 					<Obj>
 						<type>0</type>
 						<id>438</id>
-						<name>or_ln412_108</name>
+						<name>or_ln412_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21081,7 +21081,7 @@
 					<Obj>
 						<type>0</type>
 						<id>439</id>
-						<name>tmp_454</name>
+						<name>tmp_430</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21131,7 +21131,7 @@
 					<Obj>
 						<type>0</type>
 						<id>440</id>
-						<name>and_ln415_24</name>
+						<name>and_ln415_22</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21180,7 +21180,7 @@
 					<Obj>
 						<type>0</type>
 						<id>441</id>
-						<name>zext_ln415_108</name>
+						<name>zext_ln415_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21228,7 +21228,7 @@
 					<Obj>
 						<type>0</type>
 						<id>442</id>
-						<name>add_ln415_108</name>
+						<name>add_ln415_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21277,7 +21277,7 @@
 					<Obj>
 						<type>0</type>
 						<id>443</id>
-						<name>tmp_455</name>
+						<name>tmp_431</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21327,7 +21327,7 @@
 					<Obj>
 						<type>0</type>
 						<id>444</id>
-						<name>xor_ln416_108</name>
+						<name>xor_ln416_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21376,7 +21376,7 @@
 					<Obj>
 						<type>0</type>
 						<id>445</id>
-						<name>and_ln416_108</name>
+						<name>and_ln416_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21476,7 +21476,7 @@
 					<Obj>
 						<type>0</type>
 						<id>447</id>
-						<name>icmp_ln879_108</name>
+						<name>icmp_ln879_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21525,7 +21525,7 @@
 					<Obj>
 						<type>0</type>
 						<id>448</id>
-						<name>icmp_ln768_108</name>
+						<name>icmp_ln768_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21574,7 +21574,7 @@
 					<Obj>
 						<type>0</type>
 						<id>449</id>
-						<name>select_ln777_108</name>
+						<name>select_ln777_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21624,7 +21624,7 @@
 					<Obj>
 						<type>0</type>
 						<id>450</id>
-						<name>select_ln340_24</name>
+						<name>select_ln340_22</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21674,7 +21674,7 @@
 					<Obj>
 						<type>0</type>
 						<id>451</id>
-						<name>select_ln1494_108</name>
+						<name>select_ln1494_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -21697,7 +21697,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[24].V</originalName>
+						<originalName>res[22].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -21724,7 +21724,7 @@
 					<Obj>
 						<type>0</type>
 						<id>452</id>
-						<name>icmp_ln1494_25</name>
+						<name>icmp_ln1494_24</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -21773,7 +21773,7 @@
 					<Obj>
 						<type>0</type>
 						<id>453</id>
-						<name>trunc_ln708_106</name>
+						<name>trunc_ln708_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21824,7 +21824,7 @@
 					<Obj>
 						<type>0</type>
 						<id>454</id>
-						<name>tmp_456</name>
+						<name>tmp_432</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21874,7 +21874,7 @@
 					<Obj>
 						<type>0</type>
 						<id>455</id>
-						<name>trunc_ln718_109</name>
+						<name>trunc_ln718_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21922,7 +21922,7 @@
 					<Obj>
 						<type>0</type>
 						<id>456</id>
-						<name>icmp_ln718_109</name>
+						<name>icmp_ln718_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -21971,7 +21971,7 @@
 					<Obj>
 						<type>0</type>
 						<id>457</id>
-						<name>tmp_457</name>
+						<name>tmp_433</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22021,7 +22021,7 @@
 					<Obj>
 						<type>0</type>
 						<id>458</id>
-						<name>or_ln412_109</name>
+						<name>or_ln412_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22070,7 +22070,7 @@
 					<Obj>
 						<type>0</type>
 						<id>459</id>
-						<name>tmp_458</name>
+						<name>tmp_434</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22120,7 +22120,7 @@
 					<Obj>
 						<type>0</type>
 						<id>460</id>
-						<name>and_ln415_25</name>
+						<name>and_ln415_24</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22169,7 +22169,7 @@
 					<Obj>
 						<type>0</type>
 						<id>461</id>
-						<name>zext_ln415_109</name>
+						<name>zext_ln415_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22217,7 +22217,7 @@
 					<Obj>
 						<type>0</type>
 						<id>462</id>
-						<name>add_ln415_109</name>
+						<name>add_ln415_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22266,7 +22266,7 @@
 					<Obj>
 						<type>0</type>
 						<id>463</id>
-						<name>tmp_459</name>
+						<name>tmp_435</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22316,7 +22316,7 @@
 					<Obj>
 						<type>0</type>
 						<id>464</id>
-						<name>xor_ln416_109</name>
+						<name>xor_ln416_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22365,7 +22365,7 @@
 					<Obj>
 						<type>0</type>
 						<id>465</id>
-						<name>and_ln416_109</name>
+						<name>and_ln416_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22465,7 +22465,7 @@
 					<Obj>
 						<type>0</type>
 						<id>467</id>
-						<name>icmp_ln879_109</name>
+						<name>icmp_ln879_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22514,7 +22514,7 @@
 					<Obj>
 						<type>0</type>
 						<id>468</id>
-						<name>icmp_ln768_109</name>
+						<name>icmp_ln768_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22563,7 +22563,7 @@
 					<Obj>
 						<type>0</type>
 						<id>469</id>
-						<name>select_ln777_109</name>
+						<name>select_ln777_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22613,7 +22613,7 @@
 					<Obj>
 						<type>0</type>
 						<id>470</id>
-						<name>select_ln340_25</name>
+						<name>select_ln340_24</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22663,7 +22663,7 @@
 					<Obj>
 						<type>0</type>
 						<id>471</id>
-						<name>select_ln1494_109</name>
+						<name>select_ln1494_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -22686,7 +22686,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[25].V</originalName>
+						<originalName>res[24].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -22713,7 +22713,7 @@
 					<Obj>
 						<type>0</type>
 						<id>472</id>
-						<name>icmp_ln1494_26</name>
+						<name>icmp_ln1494_25</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -22762,7 +22762,7 @@
 					<Obj>
 						<type>0</type>
 						<id>473</id>
-						<name>trunc_ln708_107</name>
+						<name>trunc_ln708_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22813,7 +22813,7 @@
 					<Obj>
 						<type>0</type>
 						<id>474</id>
-						<name>tmp_460</name>
+						<name>tmp_436</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22863,7 +22863,7 @@
 					<Obj>
 						<type>0</type>
 						<id>475</id>
-						<name>trunc_ln718_110</name>
+						<name>trunc_ln718_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22911,7 +22911,7 @@
 					<Obj>
 						<type>0</type>
 						<id>476</id>
-						<name>icmp_ln718_110</name>
+						<name>icmp_ln718_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -22960,7 +22960,7 @@
 					<Obj>
 						<type>0</type>
 						<id>477</id>
-						<name>tmp_461</name>
+						<name>tmp_437</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23010,7 +23010,7 @@
 					<Obj>
 						<type>0</type>
 						<id>478</id>
-						<name>or_ln412_110</name>
+						<name>or_ln412_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23059,7 +23059,7 @@
 					<Obj>
 						<type>0</type>
 						<id>479</id>
-						<name>tmp_462</name>
+						<name>tmp_438</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23109,7 +23109,7 @@
 					<Obj>
 						<type>0</type>
 						<id>480</id>
-						<name>and_ln415_26</name>
+						<name>and_ln415_25</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23158,7 +23158,7 @@
 					<Obj>
 						<type>0</type>
 						<id>481</id>
-						<name>zext_ln415_110</name>
+						<name>zext_ln415_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23206,7 +23206,7 @@
 					<Obj>
 						<type>0</type>
 						<id>482</id>
-						<name>add_ln415_110</name>
+						<name>add_ln415_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23255,7 +23255,7 @@
 					<Obj>
 						<type>0</type>
 						<id>483</id>
-						<name>tmp_463</name>
+						<name>tmp_439</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23305,7 +23305,7 @@
 					<Obj>
 						<type>0</type>
 						<id>484</id>
-						<name>xor_ln416_110</name>
+						<name>xor_ln416_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23354,7 +23354,7 @@
 					<Obj>
 						<type>0</type>
 						<id>485</id>
-						<name>and_ln416_110</name>
+						<name>and_ln416_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23454,7 +23454,7 @@
 					<Obj>
 						<type>0</type>
 						<id>487</id>
-						<name>icmp_ln879_110</name>
+						<name>icmp_ln879_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23503,7 +23503,7 @@
 					<Obj>
 						<type>0</type>
 						<id>488</id>
-						<name>icmp_ln768_110</name>
+						<name>icmp_ln768_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23552,7 +23552,7 @@
 					<Obj>
 						<type>0</type>
 						<id>489</id>
-						<name>select_ln777_110</name>
+						<name>select_ln777_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23602,7 +23602,7 @@
 					<Obj>
 						<type>0</type>
 						<id>490</id>
-						<name>select_ln340_26</name>
+						<name>select_ln340_25</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23652,7 +23652,7 @@
 					<Obj>
 						<type>0</type>
 						<id>491</id>
-						<name>select_ln1494_110</name>
+						<name>select_ln1494_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -23675,7 +23675,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[26].V</originalName>
+						<originalName>res[25].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -23702,7 +23702,7 @@
 					<Obj>
 						<type>0</type>
 						<id>492</id>
-						<name>icmp_ln1494_28</name>
+						<name>icmp_ln1494_26</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -23751,7 +23751,7 @@
 					<Obj>
 						<type>0</type>
 						<id>493</id>
-						<name>trunc_ln708_108</name>
+						<name>trunc_ln708_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23802,7 +23802,7 @@
 					<Obj>
 						<type>0</type>
 						<id>494</id>
-						<name>tmp_464</name>
+						<name>tmp_440</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23852,7 +23852,7 @@
 					<Obj>
 						<type>0</type>
 						<id>495</id>
-						<name>trunc_ln718_111</name>
+						<name>trunc_ln718_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23900,7 +23900,7 @@
 					<Obj>
 						<type>0</type>
 						<id>496</id>
-						<name>icmp_ln718_111</name>
+						<name>icmp_ln718_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23949,7 +23949,7 @@
 					<Obj>
 						<type>0</type>
 						<id>497</id>
-						<name>tmp_465</name>
+						<name>tmp_441</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -23999,7 +23999,7 @@
 					<Obj>
 						<type>0</type>
 						<id>498</id>
-						<name>or_ln412_111</name>
+						<name>or_ln412_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24048,7 +24048,7 @@
 					<Obj>
 						<type>0</type>
 						<id>499</id>
-						<name>tmp_466</name>
+						<name>tmp_442</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24098,7 +24098,7 @@
 					<Obj>
 						<type>0</type>
 						<id>500</id>
-						<name>and_ln415_28</name>
+						<name>and_ln415_26</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24147,7 +24147,7 @@
 					<Obj>
 						<type>0</type>
 						<id>501</id>
-						<name>zext_ln415_111</name>
+						<name>zext_ln415_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24195,7 +24195,7 @@
 					<Obj>
 						<type>0</type>
 						<id>502</id>
-						<name>add_ln415_111</name>
+						<name>add_ln415_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24244,7 +24244,7 @@
 					<Obj>
 						<type>0</type>
 						<id>503</id>
-						<name>tmp_467</name>
+						<name>tmp_443</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24294,7 +24294,7 @@
 					<Obj>
 						<type>0</type>
 						<id>504</id>
-						<name>xor_ln416_111</name>
+						<name>xor_ln416_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24343,7 +24343,7 @@
 					<Obj>
 						<type>0</type>
 						<id>505</id>
-						<name>and_ln416_111</name>
+						<name>and_ln416_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24443,7 +24443,7 @@
 					<Obj>
 						<type>0</type>
 						<id>507</id>
-						<name>icmp_ln879_111</name>
+						<name>icmp_ln879_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24492,7 +24492,7 @@
 					<Obj>
 						<type>0</type>
 						<id>508</id>
-						<name>icmp_ln768_111</name>
+						<name>icmp_ln768_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24541,7 +24541,7 @@
 					<Obj>
 						<type>0</type>
 						<id>509</id>
-						<name>select_ln777_111</name>
+						<name>select_ln777_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24591,7 +24591,7 @@
 					<Obj>
 						<type>0</type>
 						<id>510</id>
-						<name>select_ln340_28</name>
+						<name>select_ln340_26</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24641,7 +24641,7 @@
 					<Obj>
 						<type>0</type>
 						<id>511</id>
-						<name>select_ln1494_111</name>
+						<name>select_ln1494_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -24664,7 +24664,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>res[28].V</originalName>
+						<originalName>res[26].V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -24740,7 +24740,7 @@
 					<Obj>
 						<type>0</type>
 						<id>513</id>
-						<name>trunc_ln708_109</name>
+						<name>trunc_ln708_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24791,7 +24791,7 @@
 					<Obj>
 						<type>0</type>
 						<id>514</id>
-						<name>tmp_468</name>
+						<name>tmp_444</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24841,7 +24841,7 @@
 					<Obj>
 						<type>0</type>
 						<id>515</id>
-						<name>trunc_ln718_112</name>
+						<name>trunc_ln718_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24889,7 +24889,7 @@
 					<Obj>
 						<type>0</type>
 						<id>516</id>
-						<name>icmp_ln718_112</name>
+						<name>icmp_ln718_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24938,7 +24938,7 @@
 					<Obj>
 						<type>0</type>
 						<id>517</id>
-						<name>tmp_469</name>
+						<name>tmp_445</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -24988,7 +24988,7 @@
 					<Obj>
 						<type>0</type>
 						<id>518</id>
-						<name>or_ln412_112</name>
+						<name>or_ln412_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25037,7 +25037,7 @@
 					<Obj>
 						<type>0</type>
 						<id>519</id>
-						<name>tmp_470</name>
+						<name>tmp_446</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25136,7 +25136,7 @@
 					<Obj>
 						<type>0</type>
 						<id>521</id>
-						<name>zext_ln415_112</name>
+						<name>zext_ln415_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25184,7 +25184,7 @@
 					<Obj>
 						<type>0</type>
 						<id>522</id>
-						<name>add_ln415_112</name>
+						<name>add_ln415_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25233,7 +25233,7 @@
 					<Obj>
 						<type>0</type>
 						<id>523</id>
-						<name>tmp_471</name>
+						<name>tmp_447</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25283,7 +25283,7 @@
 					<Obj>
 						<type>0</type>
 						<id>524</id>
-						<name>xor_ln416_112</name>
+						<name>xor_ln416_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25332,7 +25332,7 @@
 					<Obj>
 						<type>0</type>
 						<id>525</id>
-						<name>and_ln416_112</name>
+						<name>and_ln416_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25432,7 +25432,7 @@
 					<Obj>
 						<type>0</type>
 						<id>527</id>
-						<name>icmp_ln879_112</name>
+						<name>icmp_ln879_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25481,7 +25481,7 @@
 					<Obj>
 						<type>0</type>
 						<id>528</id>
-						<name>icmp_ln768_112</name>
+						<name>icmp_ln768_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25530,7 +25530,7 @@
 					<Obj>
 						<type>0</type>
 						<id>529</id>
-						<name>select_ln777_112</name>
+						<name>select_ln777_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25630,7 +25630,7 @@
 					<Obj>
 						<type>0</type>
 						<id>531</id>
-						<name>select_ln1494_112</name>
+						<name>select_ln1494_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>
@@ -25729,7 +25729,7 @@
 					<Obj>
 						<type>0</type>
 						<id>533</id>
-						<name>trunc_ln708_110</name>
+						<name>trunc_ln708_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25780,7 +25780,7 @@
 					<Obj>
 						<type>0</type>
 						<id>534</id>
-						<name>tmp_472</name>
+						<name>tmp_448</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25830,7 +25830,7 @@
 					<Obj>
 						<type>0</type>
 						<id>535</id>
-						<name>trunc_ln718_113</name>
+						<name>trunc_ln718_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25878,7 +25878,7 @@
 					<Obj>
 						<type>0</type>
 						<id>536</id>
-						<name>icmp_ln718_113</name>
+						<name>icmp_ln718_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25927,7 +25927,7 @@
 					<Obj>
 						<type>0</type>
 						<id>537</id>
-						<name>tmp_473</name>
+						<name>tmp_449</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -25977,7 +25977,7 @@
 					<Obj>
 						<type>0</type>
 						<id>538</id>
-						<name>or_ln412_113</name>
+						<name>or_ln412_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26026,7 +26026,7 @@
 					<Obj>
 						<type>0</type>
 						<id>539</id>
-						<name>tmp_474</name>
+						<name>tmp_450</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26125,7 +26125,7 @@
 					<Obj>
 						<type>0</type>
 						<id>541</id>
-						<name>zext_ln415_113</name>
+						<name>zext_ln415_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26173,7 +26173,7 @@
 					<Obj>
 						<type>0</type>
 						<id>542</id>
-						<name>add_ln415_113</name>
+						<name>add_ln415_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26222,7 +26222,7 @@
 					<Obj>
 						<type>0</type>
 						<id>543</id>
-						<name>tmp_475</name>
+						<name>tmp_451</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26272,7 +26272,7 @@
 					<Obj>
 						<type>0</type>
 						<id>544</id>
-						<name>xor_ln416_113</name>
+						<name>xor_ln416_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26321,7 +26321,7 @@
 					<Obj>
 						<type>0</type>
 						<id>545</id>
-						<name>and_ln416_113</name>
+						<name>and_ln416_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26421,7 +26421,7 @@
 					<Obj>
 						<type>0</type>
 						<id>547</id>
-						<name>icmp_ln879_113</name>
+						<name>icmp_ln879_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26470,7 +26470,7 @@
 					<Obj>
 						<type>0</type>
 						<id>548</id>
-						<name>icmp_ln768_113</name>
+						<name>icmp_ln768_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26519,7 +26519,7 @@
 					<Obj>
 						<type>0</type>
 						<id>549</id>
-						<name>select_ln777_113</name>
+						<name>select_ln777_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -26619,7 +26619,7 @@
 					<Obj>
 						<type>0</type>
 						<id>551</id>
-						<name>select_ln1494_113</name>
+						<name>select_ln1494_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation.h</fileName>
 						<fileDirectory>/home/jovyan/hls4ml-tutorial/model_3/hls4ml_prj_pynq</fileDirectory>
 						<lineNumber>45</lineNumber>

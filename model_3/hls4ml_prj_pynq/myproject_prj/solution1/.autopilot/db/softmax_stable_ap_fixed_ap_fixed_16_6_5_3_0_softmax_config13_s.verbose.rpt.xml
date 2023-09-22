@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'softmax_stable_ap_fixed_ap_fixed_16_6_5_3_0_softmax_config13_s'" level="0">
-<item name = "Date">Fri Sep 22 02:40:08 2023
+<item name = "Date">Fri Sep 22 04:29:54 2023
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">myproject_prj</item>
@@ -65,11 +65,11 @@
 </item>
 <item name = "DSP48E"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
-<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U240">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
-<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U241">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
-<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U242">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
-<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U243">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
-<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U244">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
+<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U228">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
+<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U229">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
+<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U230">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
+<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U231">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
+<column name="myproject_axi_mul_mul_18s_18s_30_3_1_U232">myproject_axi_mul_mul_18s_18s_30_3_1, i0 * i1</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
