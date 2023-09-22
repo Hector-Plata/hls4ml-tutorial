@@ -1,0 +1,91 @@
+AcceleratorConfig:
+  Board: pynq-z2
+  Driver: python
+  Interface: axi_stream
+  Precision:
+    Input: float
+    Output: float
+Backend: VivadoAccelerator
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    fc1:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<6,1>
+      ReuseFactor: 64
+      Trace: false
+    fc1_input:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc1_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc2:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<6,1>
+      ReuseFactor: 64
+      Trace: false
+    fc2_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    fc3:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<6,1>
+      ReuseFactor: 64
+      Trace: false
+    fc3_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    output:
+      Precision:
+        bias: fixed<6,1>
+        result: fixed<16,6>
+        weight: fixed<6,1>
+      ReuseFactor: 64
+      Trace: false
+    output_linear:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    relu1:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT>
+      Trace: false
+    relu2:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT>
+      Trace: false
+    relu3:
+      Precision:
+        result: ufixed<6,0,RND_CONV,SAT>
+      Trace: false
+    softmax:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+      exp_table_t: ap_fixed<18,8>
+      inv_table_t: ap_fixed<18,4>
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'model_3/hls4ml_prj_pynq/keras_model.h5'
+OutputDir: model_3/hls4ml_prj_pynq
+OutputPredictions: null
+Part: xc7z020clg400-1
+ProjectName: myproject
+Stamp: ca61B9f3
